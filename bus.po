@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bus
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-19 13:58+0000\n"
+"PO-Revision-Date: 2015-06-19 21:27+0700\n"
+"Last-Translator: <>\n"
+"Language-Team: tungnt <tungnt1@live.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.5\n"
+"Language: vi\n"
+
+#. module: bus
+#: field:bus.bus,channel:0
+msgid "Channel"
+msgstr "Kênh"
+
+#. module: bus
+#: field:bus.bus,create_date:0
+msgid "Create date"
+msgstr "Ngày tạo"
+
+#. module: bus
+#: field:bus.bus,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: bus
+#: field:bus.bus,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: bus
+#: field:bus.bus,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: bus
+#: field:bus.bus,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối trên"
+
+#. module: bus
+#: field:bus.bus,message:0
+msgid "Message"
+msgstr "Tin nhắn"

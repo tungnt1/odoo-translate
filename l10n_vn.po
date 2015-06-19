@@ -1,0 +1,78 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_vn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-19 14:05+0000\n"
+"PO-Revision-Date: 2015-06-19 21:52+0700\n"
+"Last-Translator: <>\n"
+"Language-Team: tungnt <tungnt1@live.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_current_asset
+msgid "1. TÀI SẢN NGẮN HẠN"
+msgstr "1. TÀI SẢN NGẮN HẠN"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_current_asset_rec
+msgid "1. TÀI SẢN NGẮN HẠN - REC"
+msgstr "1. TÀI SẢN NGẮN HẠN - REC"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_long_term_asset
+msgid "2. TÀI SẢN DÀI HẠN"
+msgstr "2. TÀI SẢN DÀI HẠN"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_liability
+msgid "3. NỢ PHẢI TRẢ"
+msgstr "3. NỢ PHẢI TRẢ"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_cash_equity
+msgid "4. VỐN CHỦ SỞ HỮU"
+msgstr "4. VỐN CHỦ SỞ HỮU"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_income
+msgid "5. DOANH THU"
+msgstr "5. DOANH THU"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_expense
+msgid "6. CHI PHÍ SẢN XUẤT, KINH DOANH"
+msgstr "6. CHI PHÍ SẢN XUẤT, KINH DOANH"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_other_income
+msgid "7. THU NHẬP KHÁC"
+msgstr "7. THU NHẬP KHÁC"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_other_expense
+msgid "8. CHI PHÍ KHÁC"
+msgstr "8. CHI PHÍ KHÁC"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_evaluation
+msgid "9. XÁC ĐỊNH KẾT QUẢ KINH DOANH"
+msgstr "9. XÁC ĐỊNH KẾT QUẢ KINH DOANH"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_root
+msgid "CHỈ XEM"
+msgstr "CHỈ XEM"
+
+#. module: l10n_vn
+#: model:account.account.type,name:l10n_vn.account_type_other
+msgid "X. TÀI KHOẢN NGOÀI BẢNG"
+msgstr "X. TÀI KHOẢN NGOÀI BẢNG"

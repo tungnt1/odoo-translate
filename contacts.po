@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* contacts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-19 13:59+0000\n"
+"PO-Revision-Date: 2015-06-19 21:34+0700\n"
+"Last-Translator: <>\n"
+"Language-Team: tungnt <tungnt1@live.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#. module: contacts
+#: model:ir.actions.act_window,help:contacts.action_contacts
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Click to add a contact in your address book.\n"
+"          </p><p>\n"
+"            Odoo helps you easily track all activities related to\n"
+"            a customer; discussions, history of business opportunities,\n"
+"            documents, etc.\n"
+"          </p>\n"
+"        "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Click để thêm liên hệ.\n"
+"          </p><p>\n"
+"            Hệ thống sẽ giúp bạn theo dõi các hoạt động liên quan tới\n"
+"            khách hàng, thảo luận, cơ hội làm ăn, tài liệu...,\n"
+"          </p>\n"
+"        "
+
+#. module: contacts
+#: model:ir.actions.act_window,name:contacts.action_contacts
+#: model:ir.ui.menu,name:contacts.menu_contacts
+msgid "Contacts"
+msgstr "Liên hệ"
