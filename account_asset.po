@@ -1,19 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_asset
+# 	* account_asset
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 12:29+0000\n"
-"PO-Revision-Date: 2015-06-19 12:29+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2015-06-22 19:04+0700\n"
+"Last-Translator: Odoo Server 8.0 <tungnt1@live.com>\n"
+"Language-Team: tungnt <tungnt1@live.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. module: account_asset
 #: field:account.asset.asset,entry_count:0
@@ -27,16 +29,18 @@ msgstr "# Chi tiết khấu hau"
 
 #. module: account_asset
 #: model:ir.actions.act_window,help:account_asset.action_asset_asset_report
-msgid "<p>\n"
+msgid ""
+"<p>\n"
 "            From this report, you can have an overview on all depreciation. The\n"
 "            tool search can also be used to personalise your Assets reports and\n"
 "            so, match this analysis to your needs;\n"
 "          </p>\n"
 "        "
-msgstr "<p>\n"
-"            Từ báo cáo này, Bạn cso thể có một cái nhìn tổng quát trên tất cả các khấu hao.\n"
-"            Một công cụ tìm kiếm cũng có thể được sử dụng để cá nhân hóa các báo cáo Tài sản của bạn,\n"
-"            phù hợp với nhu cầu quản trị của bạn\n"
+msgstr ""
+"<p>\n"
+"            Từ báo cáo này, Bạn có thể có một cái nhìn tổng quát trên tất cả các khấu hao.\n"
+"            Một công cụ tìm kiếm cũng có thể được sử dụng để cá nhân hóa các báo cáo\n"
+"            Tài sản của bạn, phù hợp với nhu cầu quản trị của bạn\n"
 "          </p>\n"
 "        "
 
@@ -79,8 +83,7 @@ msgstr "Tài khoản quản trị"
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
 #: view:account.asset.asset:account_asset.view_account_asset_search
 #: field:account.asset.depreciation.line,asset_id:0
-#: field:account.asset.history,asset_id:0
-#: field:account.move.line,asset_id:0
+#: field:account.asset.history,asset_id:0 field:account.move.line,asset_id:0
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 #: field:asset.asset.report,asset_id:0
 #: model:ir.model,name:account_asset.model_account_asset_asset
@@ -212,22 +215,25 @@ msgid "Children Assets"
 msgstr "Tài sản con"
 
 #. module: account_asset
-#: help:account.asset.asset,method:0
-#: help:account.asset.category,method:0
-msgid "Choose the method to use to compute the amount of depreciation lines.\n"
+#: help:account.asset.asset,method:0 help:account.asset.category,method:0
+msgid ""
+"Choose the method to use to compute the amount of depreciation lines.\n"
 "  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
 "  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
-msgstr "Lựa chọn phương thức để tính giá trị khấu hao.\n"
+msgstr ""
+"Lựa chọn phương thức để tính giá trị khấu hao.\n"
 "  * Đường thẳng: Được tính toán dựa trên: Nguyên giá / Số lần tính khấu hao\n"
 "  * Lũy kế: Được tính toán dựa trên: Giá trị còn lại * Hệ số lũy kế"
 
 #. module: account_asset
 #: help:account.asset.asset,method_time:0
 #: help:account.asset.category,method_time:0
-msgid "Choose the method to use to compute the dates and number of depreciation lines.\n"
+msgid ""
+"Choose the method to use to compute the dates and number of depreciation lines.\n"
 "  * Number of Depreciations: Fix the number of depreciation lines and the time between 2 depreciations.\n"
 "  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
-msgstr "Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
+msgstr ""
+"Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
 "  * Số lần khấu hao: Cố định số lần khấu hao và thời gian giữa 2 lần khấu hao.\n"
 "  * Ngày kết thúc: Lựa chọn thời gian giữa 2 lần khấu hao và ngày khấu hao không vượt quá Ngày kết thúc."
 
@@ -237,8 +243,7 @@ msgid "Choose the period for which you want to automatically post the depreciati
 msgstr "Lựa chọn kỳ kế toán mà bạn muốn tự động vào sổ bút toán khấu hao của các tài sản đang tính khấu hao"
 
 #. module: account_asset
-#: selection:account.asset.asset,state:0
-#: selection:asset.asset.report,state:0
+#: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
 msgid "Close"
 msgstr "Ðóng"
 
@@ -256,8 +261,7 @@ msgid "Company"
 msgstr "Công ty"
 
 #. module: account_asset
-#: field:account.asset.asset,method:0
-#: field:account.asset.category,method:0
+#: field:account.asset.asset,method:0 field:account.asset.category,method:0
 msgid "Computation Method"
 msgstr "Phương pháp tính toán"
 
@@ -302,7 +306,7 @@ msgstr "Tạo phát sinh tài khoản"
 #: field:asset.depreciation.confirmation.wizard,create_uid:0
 #: field:asset.modify,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "Tạo bởi"
 
 #. module: account_asset
 #: field:account.asset.asset,create_date:0
@@ -312,7 +316,7 @@ msgstr "Created by"
 #: field:asset.depreciation.confirmation.wizard,create_date:0
 #: field:asset.modify,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Tạo trên"
 
 #. module: account_asset
 #: field:account.asset.asset,currency_id:0
@@ -425,8 +429,7 @@ msgstr "Ngày kết thúc"
 
 #. module: account_asset
 #: field:account.asset.category,method_end:0
-#: field:account.asset.history,method_end:0
-#: field:asset.modify,method_end:0
+#: field:account.asset.history,method_end:0 field:asset.modify,method_end:0
 msgid "Ending date"
 msgstr "Ngày kết thúc"
 
@@ -456,7 +459,7 @@ msgstr "Bộ lọc mở rộng..."
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
 msgid "General"
-msgstr "General"
+msgstr "Chung"
 
 #. module: account_asset
 #: field:asset.asset.report,gross_value:0
@@ -471,7 +474,7 @@ msgstr "Giá trị nguyên giá"
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -485,19 +488,15 @@ msgid "History name"
 msgstr "Tên lịch sử"
 
 #. module: account_asset
-#: field:account.asset.asset,id:0
-#: field:account.asset.category,id:0
-#: field:account.asset.depreciation.line,id:0
-#: field:account.asset.history,id:0
+#: field:account.asset.asset,id:0 field:account.asset.category,id:0
+#: field:account.asset.depreciation.line,id:0 field:account.asset.history,id:0
 #: field:asset.asset.report,id:0
-#: field:asset.depreciation.confirmation.wizard,id:0
-#: field:asset.modify,id:0
+#: field:asset.depreciation.confirmation.wizard,id:0 field:asset.modify,id:0
 msgid "ID"
 msgstr "ID"
 
 #. module: account_asset
-#: help:account.asset.asset,prorata:0
-#: help:account.asset.category,prorata:0
+#: help:account.asset.asset,prorata:0 help:account.asset.category,prorata:0
 msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first January"
 msgstr "Chỉ ra rằng bút toán khấu hao đầu tiên cho tài sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của tháng 1"
 
@@ -536,7 +535,7 @@ msgstr "Phát sinh"
 #: field:asset.depreciation.confirmation.wizard,write_uid:0
 #: field:asset.modify,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: account_asset
 #: field:account.asset.asset,write_date:0
@@ -546,7 +545,7 @@ msgstr "Last Updated by"
 #: field:asset.depreciation.confirmation.wizard,write_date:0
 #: field:asset.modify,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Cập nhật lần cuối trên"
 
 #. module: account_asset
 #: selection:account.asset.asset,method:0
@@ -577,8 +576,7 @@ msgid "Next Period Depreciation"
 msgstr "Kỳ khấu hao tiếp theo"
 
 #. module: account_asset
-#: field:account.asset.asset,note:0
-#: field:account.asset.category,note:0
+#: field:account.asset.asset,note:0 field:account.asset.category,note:0
 #: field:account.asset.history,note:0
 msgid "Note"
 msgstr "Ghi chú"
@@ -587,8 +585,7 @@ msgstr "Ghi chú"
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
 #: view:account.asset.category:account_asset.view_account_asset_category_form
 #: view:account.asset.history:account_asset.view_account_asset_history_form
-#: view:asset.modify:account_asset.asset_modify_form
-#: field:asset.modify,note:0
+#: view:asset.modify:account_asset.asset_modify_form field:asset.modify,note:0
 msgid "Notes"
 msgstr "Ghi chú"
 
@@ -649,15 +646,14 @@ msgid "Posted depreciation lines"
 msgstr "Chi tiết khấu hao đã vào sổ"
 
 #. module: account_asset
-#: field:account.asset.asset,prorata:0
-#: field:account.asset.category,prorata:0
+#: field:account.asset.asset,prorata:0 field:account.asset.category,prorata:0
 msgid "Prorata Temporis"
-msgstr "Prorata Temporis"
+msgstr "Tỷ lệ thời gian"
 
 #. module: account_asset
 #: constraint:account.asset.asset:0
 msgid "Prorata temporis can be applied only for time method \"number of depreciations\"."
-msgstr "Prorata temporis can be applied only for time method \"number of depreciations\"."
+msgstr "Tỷ lệ thời gian chỉ được áp dụng cho thời gian \"số khấu hao\""
 
 #. module: account_asset
 #: field:account.asset.asset,purchase_date:0
@@ -695,7 +691,7 @@ msgstr "Đang tính khấu hao"
 #. module: account_asset
 #: field:account.asset.asset,salvage_value:0
 msgid "Salvage Value"
-msgstr "Salvage Value"
+msgstr "Giá trị hữu dụng"
 
 #. module: account_asset
 #: view:account.asset.category:account_asset.view_account_asset_category_search
@@ -725,16 +721,15 @@ msgstr "Bỏ qua trạng thái dự thảo"
 #. module: account_asset
 #: help:account.asset.category,method_period:0
 msgid "State here the time between 2 depreciations, in months"
-msgstr "State here the time between 2 depreciations, in months"
+msgstr "Trạng thái giữa 2 lần khấu hao"
 
 #. module: account_asset
 #: field:account.asset.depreciation.line,parent_state:0
 msgid "State of Asset"
-msgstr "State of Asset"
+msgstr "Trạng thái của tài sản"
 
 #. module: account_asset
-#: field:account.asset.asset,state:0
-#: field:asset.asset.report,state:0
+#: field:account.asset.asset,state:0 field:asset.asset.report,state:0
 msgid "Status"
 msgstr "Trạng thái"
 
@@ -745,10 +740,12 @@ msgstr "Tổng giá trị của thời gian giữa hai lần khấu hao, tính t
 
 #. module: account_asset
 #: help:account.asset.history,method_time:0
-msgid "The method to use to compute the dates and number of depreciation lines.\n"
+msgid ""
+"The method to use to compute the dates and number of depreciation lines.\n"
 "Number of Depreciations: Fix the number of depreciation lines and the time between 2 depreciations.\n"
 "Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
-msgstr "Phương pháp sử dụng để tính ngày và số lần khấu hao.\n"
+msgstr ""
+"Phương pháp sử dụng để tính ngày và số lần khấu hao.\n"
 "Số lần khấu hao: Cố định số lần khấu hao và thời gian giữa 2 lần khấu hao.\n"
 "Ngày kết thúc: Lựa chọn thời gian giữa 2 lần khấu hao và ngày khấu hao không vượt quá ngày kết thúc."
 
@@ -783,10 +780,12 @@ msgstr "Người dùng"
 
 #. module: account_asset
 #: help:account.asset.asset,state:0
-msgid "When an asset is created, the status is 'Draft'.\n"
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
 "If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
 "You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
-msgstr "Khi một tài sản được tạo, trạng thái của nó là 'Dự thảo'.\n"
+msgstr ""
+"Khi một tài sản được tạo, trạng thái của nó là 'Dự thảo'.\n"
 "Nếu tài sản được xác nhận, trạng thái sẽ chuyển sang 'Đang tính khấu hao', và chi tiết khấu hao có thể được ghi nhận vào hệ thống kế toán.\n"
 "Bạn có thể đóng tài sản thủ công khi hết khấu hao. Nếu khấu hao cuối cùng được vào sổ, tài sản tự động chuyển thành 'Đã đóng'."
 
@@ -811,4 +810,3 @@ msgstr "tháng"
 #: view:asset.modify:account_asset.asset_modify_form
 msgid "or"
 msgstr "hoặc"
-
