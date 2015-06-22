@@ -1,23 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* note
+# 	* note
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 12:15+0000\n"
-"PO-Revision-Date: 2015-06-19 12:15+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2015-06-21 16:54+0700\n"
+"Last-Translator: Odoo Server 8.0 <tungnt1@live.com>\n"
+"Language-Team: tungnt <tungnt1@live.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. module: note
 #: model:ir.actions.act_window,help:note.action_note_note
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "            Click to add a personal note.\n"
 "          </p><p>\n"
 "            Use notes to organize personal tasks or notes. All\n"
@@ -30,172 +33,164 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "            removing or modifying columns.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"            Click to add a personal note.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Click để thêm ghi chú cá nhân.\n"
 "          </p><p>\n"
-"            Use notes to organize personal tasks or notes. All\n"
-"            notes are private; no one else will be able to see them. However\n"
-"            you can share some notes with other people by inviting followers\n"
-"            on the note. (Useful for meeting minutes, especially if\n"
-"            you activate the pad feature for collaborative writings).\n"
+"            Sử dụng ghi chú để tổ chức công việc cá nhân hay ghi chú\n"
+"            Tất cả ghi chú là riêng tư; không có ai khác sẽ có thể nhìn\n"
+"            thấy chúng. Tuy nhiên bạn có thể chia sẻ một số Ghi chú với\n"
+"            những người khác bằng cách mời Theo dõi chúng.\n"
 "          </p><p>\n"
-"            You can customize how you process your notes/tasks by adding,\n"
-"            removing or modifying columns.\n"
+"            Bạn có thể tùy chỉnh cach xử lý bằng cách thêm, bỏ đi hoặc            sửa các cột.\n"
 "          </p>\n"
 "        "
 
 #. module: note
-#: view:note.note:note.view_note_note_filter
-#: field:note.note,open:0
+#: view:note.note:note.view_note_note_filter field:note.note,open:0
 msgid "Active"
-msgstr "Active"
+msgstr "Hoạt động"
 
 #. module: note
 #: view:note.note:note.view_note_note_filter
 msgid "Archive"
-msgstr "Archive"
+msgstr "Lưu trữ"
 
 #. module: note
 #: view:note.note:note.view_note_note_filter
 msgid "By sticky note Category"
-msgstr "By sticky note Category"
+msgstr "Theo danh mục Ghi chú"
 
 #. module: note
 #: field:note.note,color:0
 msgid "Color Index"
-msgstr "Color Index"
+msgstr "Chỉ mục màu sắc"
 
 #. module: note
-#: field:note.note,create_uid:0
-#: field:note.stage,create_uid:0
+#: field:note.note,create_uid:0 field:note.stage,create_uid:0
 #: field:note.tag,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "Tạo bởi"
 
 #. module: note
-#: field:note.note,create_date:0
-#: field:note.stage,create_date:0
+#: field:note.note,create_date:0 field:note.stage,create_date:0
 #: field:note.tag,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Tạo trên"
 
 #. module: note
 #: field:note.note,date_done:0
 msgid "Date done"
-msgstr "Date done"
+msgstr "Ngày hoàn thành"
 
 #. module: note
 #: help:note.note,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "Ngày tạo tin nhắn cuối cùng trên hồ sơ."
 
 #. module: note
 #: view:note.note:note.view_note_note_kanban
 msgid "Delete"
-msgstr "Delete"
+msgstr "Xóa"
 
 #. module: note
 #: field:note.stage,fold:0
 msgid "Folded by Default"
-msgstr "Folded by Default"
+msgstr "Thư mục mặc định"
 
 #. module: note
 #: field:note.note,message_follower_ids:0
 msgid "Followers"
-msgstr "Followers"
+msgstr "Người theo dõi"
 
 #. module: note
 #: view:note.note:note.view_note_note_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: note
 #: help:note.note,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Giữ tóm tắt trao đổi (số tin nhắn,...). Tóm tắt này được đưa trực tiếp vào định dạng HTML trong quy trình Kanban."
 
 #. module: note
-#: field:note.note,id:0
-#: field:note.stage,id:0
-#: field:note.tag,id:0
+#: field:note.note,id:0 field:note.stage,id:0 field:note.tag,id:0
 msgid "ID"
 msgstr "ID"
 
 #. module: note
 #: help:note.note,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "Nếu tick thì sẽ yêu cầu sự chú ý của bạn khi có tin nhắn mới."
 
 #. module: note
 #: field:note.note,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Is a Follower"
+msgstr "Là người theo dõi"
 
 #. module: note
 #: field:note.note,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "Tin nhắn cuối cùng ngày"
 
 #. module: note
-#: field:note.note,write_uid:0
-#: field:note.stage,write_uid:0
+#: field:note.note,write_uid:0 field:note.stage,write_uid:0
 #: field:note.tag,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhận lần cuối bởi"
 
 #. module: note
-#: field:note.note,write_date:0
-#: field:note.stage,write_date:0
+#: field:note.note,write_date:0 field:note.stage,write_date:0
 #: field:note.tag,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Cập nhận lần cuối trên"
 
 #. module: note
 #: model:note.stage,name:note.note_stage_03
 msgid "Later"
-msgstr "Later"
+msgstr "Sau"
 
 #. module: note
 #: field:note.note,message_ids:0
 msgid "Messages"
-msgstr "Messages"
+msgstr "Tin nhắn"
 
 #. module: note
 #: help:note.note,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "Lịch sử Nhắn tin và Trao đổi"
 
 #. module: note
 #: model:note.stage,name:note.note_stage_00
 msgid "New"
-msgstr "New"
+msgstr "Mới"
 
 #. module: note
 #: model:ir.model,name:note.model_note_note
 #: view:note.note:note.view_note_note_filter
 #: view:note.note:note.view_note_note_form
 msgid "Note"
-msgstr "Note"
+msgstr "Ghi chú"
 
 #. module: note
 #: field:note.note,memo:0
 msgid "Note Content"
-msgstr "Note Content"
+msgstr "Nội dung"
 
 #. module: note
 #: model:ir.model,name:note.model_note_stage
 msgid "Note Stage"
-msgstr "Note Stage"
+msgstr "Tình trạng"
 
 #. module: note
 #: field:note.note,name:0
 msgid "Note Summary"
-msgstr "Note Summary"
+msgstr "Tóm tắt"
 
 #. module: note
 #: model:ir.model,name:note.model_note_tag
 msgid "Note Tag"
-msgstr "Note Tag"
+msgstr "Tag"
 
 #. module: note
 #: view:base.config.settings:note.view_general_settings_note_form
@@ -204,45 +199,42 @@ msgstr "Note Tag"
 #: view:note.note:note.view_note_note_filter
 #: model:note.stage,name:note.note_stage_04
 msgid "Notes"
-msgstr "Notes"
+msgstr "Ghi chú"
 
 #. module: note
 #: model:res.groups,name:note.group_note_fancy
 msgid "Notes / Fancy mode"
-msgstr "Notes / Fancy mode"
+msgstr "Chế độ Ghi chú / Ưa thích"
 
 #. module: note
-#: field:note.note,user_id:0
-#: field:note.stage,user_id:0
+#: field:note.note,user_id:0 field:note.stage,user_id:0
 msgid "Owner"
-msgstr "Owner"
+msgstr "Chủ sở hữu"
 
 #. module: note
 #: help:note.stage,user_id:0
 msgid "Owner of the note stage."
-msgstr "Owner of the note stage."
+msgstr "Chủ sở hữu của các giai đoạn Ghi chú"
 
 #. module: note
-#: field:note.note,sequence:0
-#: field:note.stage,sequence:0
+#: field:note.note,sequence:0 field:note.stage,sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "Trình tự"
 
 #. module: note
-#: view:note.note:note.view_note_note_filter
-#: field:note.note,stage_id:0
+#: view:note.note:note.view_note_note_filter field:note.note,stage_id:0
 msgid "Stage"
-msgstr "Stage"
+msgstr "Giai đoạn"
 
 #. module: note
 #: field:note.stage,name:0
 msgid "Stage Name"
-msgstr "Stage Name"
+msgstr "Tên Giai đoạn"
 
 #. module: note
 #: view:note.stage:note.view_note_stage_form
 msgid "Stage of Notes"
-msgstr "Stage of Notes"
+msgstr "Giai đoạn ghi chú"
 
 #. module: note
 #: model:ir.actions.act_window,name:note.action_note_stage
@@ -254,61 +246,59 @@ msgstr "Giai đoạn"
 #. module: note
 #: view:note.stage:note.view_note_stage_tree
 msgid "Stages of Notes"
-msgstr "Stages of Notes"
+msgstr "Giai đoạn ghi chú"
 
 #. module: note
 #: field:note.note,stage_ids:0
 msgid "Stages of Users"
-msgstr "Stages of Users"
+msgstr "Các giai đoạn của User"
 
 #. module: note
 #: field:note.note,message_summary:0
 msgid "Summary"
-msgstr "Summary"
+msgstr "Tóm tắt"
 
 #. module: note
 #: field:note.tag,name:0
 msgid "Tag Name"
-msgstr "Tag Name"
+msgstr "Tên tag"
 
 #. module: note
-#: view:note.note:note.view_note_note_form
-#: field:note.note,tag_ids:0
+#: view:note.note:note.view_note_note_form field:note.note,tag_ids:0
 msgid "Tags"
-msgstr "Tags"
+msgstr "Tag"
 
 #. module: note
 #: model:note.stage,name:note.note_stage_02
 msgid "This Week"
-msgstr "This Week"
+msgstr "Trong tuần"
 
 #. module: note
 #: model:note.stage,name:note.note_stage_01
 msgid "Today"
-msgstr "Today"
+msgstr "Hôm nay"
 
 #. module: note
 #: field:note.note,message_unread:0
 msgid "Unread Messages"
-msgstr "Unread Messages"
+msgstr "Tin nhắn chưa đọc"
 
 #. module: note
 #: field:base.config.settings,module_note_pad:0
 msgid "Use collaborative pads (etherpad)"
-msgstr "Use collaborative pads (etherpad)"
+msgstr "Sử dụng cho cộng tác (sổ ghi chép)"
 
 #. module: note
 #: field:base.config.settings,group_note_fancy:0
 msgid "Use fancy layouts for notes"
-msgstr "Use fancy layouts for notes"
+msgstr "Sử dụng cách bố trí ưa thích cho Ghi chú"
 
 #. module: note
 #: help:note.stage,sequence:0
 msgid "Used to order the note stages"
-msgstr "Used to order the note stages"
+msgstr "Sử dụng để xếp hàng Giai đoạn"
 
 #. module: note
 #: model:ir.model,name:note.model_res_users
 msgid "Users"
-msgstr "Users"
-
+msgstr "User"

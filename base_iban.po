@@ -1,26 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* base_iban
+# 	* base_iban
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 13:54+0000\n"
-"PO-Revision-Date: 2015-06-19 13:54+0000\n"
+"PO-Revision-Date: 2015-06-21 15:28+0700\n"
 "Last-Translator: <>\n"
-"Language-Team: \n"
+"Language-Team: tungnt <tungnt1>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. module: base_iban
 #: constraint:res.partner.bank:0
-msgid "\n"
+msgid ""
+"\n"
 "Please define BIC/Swift code on bank for bank type IBAN Account to make valid payments"
-msgstr "\n"
-"Please define BIC/Swift code on bank for bank type IBAN Account to make valid payments"
+msgstr ""
+"\n"
+"Xin hãy định nghĩa mã BIC/Swift của ngân hàng cho cho kiểu tài khoản IBAN để thực hiện việc thanh toán hợp lệ"
 
 #. module: base_iban
 #: model:res.partner.bank.type,format_layout:base_iban.bank_iban
@@ -30,7 +34,7 @@ msgstr "%(bank_name)s: IBAN %(acc_number)s - BIC %(bank_bic)s"
 #. module: base_iban
 #: model:ir.model,name:base_iban.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr "Các tài khoản ngân hàng"
+msgstr "Tài khoản ngân hàng"
 
 #. module: base_iban
 #: field:res.partner.bank,iban:0
@@ -40,30 +44,30 @@ msgstr "IBAN"
 #. module: base_iban
 #: model:res.partner.bank.type,name:base_iban.bank_iban
 msgid "IBAN Account"
-msgstr "IBAN Account"
+msgstr "Tài khoản IBAN"
 
 #. module: base_iban
 #: help:res.partner.bank,iban:0
 msgid "International Bank Account Number"
-msgstr "International Bank Account Number"
+msgstr "IBAN (Số tài khoản quốc tế)"
 
 #. module: base_iban
 #: code:addons/base_iban/base_iban.py:138
 #, python-format
 msgid "The IBAN does not seem to be correct. You should have entered something like this %s"
-msgstr "The IBAN does not seem to be correct. You should have entered something like this %s"
+msgstr "Số IBAN không đúng. Bạn phải nhập vào số IBAN giống như %s"
 
 #. module: base_iban
 #: code:addons/base_iban/base_iban.py:142
 #, python-format
 msgid "The IBAN is invalid, it should begin with the country code"
-msgstr "The IBAN is invalid, it should begin with the country code"
+msgstr "Số IBAN sai, nó thường bắt đầu bằng mã quốc gia"
 
 #. module: base_iban
 #: code:addons/base_iban/base_iban.py:141
 #, python-format
 msgid "This IBAN does not pass the validation check, please verify it"
-msgstr "This IBAN does not pass the validation check, please verify it"
+msgstr "Không thể xác nhận số IBAN, xin hãy kiểm tra lại"
 
 #. module: base_iban
 #: model:res.partner.bank.type.field,name:base_iban.bank_swift_field
@@ -79,4 +83,3 @@ msgstr "country_id"
 #: model:res.partner.bank.type.field,name:base_iban.bank_zip_field
 msgid "zip"
 msgstr "zip"
-
