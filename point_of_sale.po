@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "X-Generator: Poedit 1.7.5\n"
-"Language: vi\n"
+"Language: vi"
 
 #. module: point_of_sale
 #: field:report.pos.order,nbr:0
@@ -27,7 +27,7 @@ msgstr "# của nội dung"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:957
 #, python-format
 msgid "% discount"
-msgstr "% giam gia"
+msgstr "% giảm giá"
 
 #. module: point_of_sale
 #. openerp-web
