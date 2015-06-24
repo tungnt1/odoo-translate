@@ -1,36 +1,37 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* crm
+# 	* crm
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 12:09+0000\n"
-"PO-Revision-Date: 2015-06-19 12:09+0000\n"
+"PO-Revision-Date: 2015-06-23 14:27+0700\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"Language: vi\n"
+"X-Generator: Poedit 1.8\n"
 
 #. module: crm
-#: field:crm.lead,meeting_count:0
-#: field:res.partner,meeting_count:0
+#: field:crm.lead,meeting_count:0 field:res.partner,meeting_count:0
 msgid "# Meetings"
 msgstr "Số cuộc họp"
 
 #. module: crm
-#: field:crm.lead.report,nbr_cases:0
-#: field:crm.opportunity.report,nbr_cases:0
+#: field:crm.lead.report,nbr_cases:0 field:crm.opportunity.report,nbr_cases:0
 #: field:crm.phonecall.report,nbr:0
 msgid "# of Cases"
 msgstr "# of Cases"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.relate_partner_opportunities
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create an opportunity related to this customer.\n"
 "              </p><p>\n"
 "                Use opportunities to keep track of your sales pipeline, follow\n"
@@ -41,7 +42,8 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                documents, track all discussions, and much more.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Nhấp chuột để tạo mới một cơ hội liên quan tới khách hàng này.\n"
 "              </p><p>\n"
 "                Sử dụng cơ hội để theo dõi quá trình bán hàng, theo dõi \n"
@@ -55,7 +57,8 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_tracking_medium_action
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new channel.\n"
 "              </p><p>\n"
 "                Use channels to track the type of source of your leads and opportunities. Channels\n"
@@ -66,21 +69,23 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                campaign, reseller, banner, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to define a new channel.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click để định nghĩa mới một kênh thông tin.\n"
 "              </p><p>\n"
-"                Use channels to track the type of source of your leads and opportunities. Channels\n"
-"                are mostly used in reporting to analyse sales performance\n"
-"                related to marketing efforts.\n"
+"                Sử dụng các Kênh thông tin để quản lý các Đầu mối và Cơ hội.\n"
+"                Các Kênh thông tin được sử dụng chủ yếu trong báo cáo để\n"
+"                phân tích hiệu quả kinh doanh liên quan đến các nỗ lực Marketing.\n"
 "              </p><p>\n"
-"                Some examples of channels: company website, phone call\n"
-"                campaign, reseller, banner, etc.\n"
+"                Vài ví dụ: Kênh thông tin website, cuộc gọi, chiến dịch quảng cáo,\n"
+"                ...\n"
 "              </p>\n"
 "            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_segmentation_tree-act
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new customer segmentation.\n"
 "              </p><p>\n"
 "                Create specific categories which you can assign to your\n"
@@ -89,8 +94,9 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                according to criteria you set.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Nhấp chuột để định nghĩa một phân khúc khách hàng.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click để định nghĩa một phân khúc khách hàng.\n"
 "              </p><p>\n"
 "                Tạo nhóm cụ thể mà bạn có thể gán tới các liên hệ của mình\n"
 "                để quản lý quá trình tương tác với họ tốt hơn. \n"
@@ -100,7 +106,8 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lead_categ_action
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new sales tag.\n"
 "              </p><p>\n"
 "                Create specific tags that fit your company's activities\n"
@@ -109,19 +116,21 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                structure or the different types of sales you do.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to define a new sales tag.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click để định nghĩa tag bán hàng.\n"
 "              </p><p>\n"
-"                Create specific tags that fit your company's activities\n"
-"                to better classify and analyse your leads and opportunities.\n"
-"                Such categories could for instance reflect your product\n"
-"                structure or the different types of sales you do.\n"
+"                Tạo tag phù hợp với các hoạt động của doanh nghiệp để\n"
+"                để phân loại và phân tích tốt hơn các khách hàng tiềm năng.\n"
+"                Chẳng hạn như phản ánh cơ cấu sản phẩm, kiểu bán háng \n"
+"                khác nhau.\n"
 "              </p>\n"
 "            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_tracking_source_action
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new source.\n"
 "              </p><p>\n"
 "                Use channels to track the source of your leads and opportunities. Channels\n"
@@ -132,29 +141,32 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                email list name, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to define a new source.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click để định nghĩa nguồn dẫn.\n"
 "              </p><p>\n"
-"                Use channels to track the source of your leads and opportunities. Channels\n"
-"                are mostly used in reporting to analyse sales performance\n"
-"                related to marketing efforts.\n"
+"                Sử dụng các Kênh thông tin để quản lý các Đầu mối và Cơ hội.\n"
+"                Các Kênh thông tin được sử dụng chủ yếu trong báo cáo để\n"
+"                phân tích hiệu quả kinh doanh liên quan đến các nỗ lực Marketing.\n"
 "              </p><p>\n"
-"                Some examples of channels: partner's website, google.com, \n"
-"                email list name, etc.\n"
+"                Ví dụ như từ website, tìm kiếm qua google/bing..., danh sách email\n"
+"                của khách hàng, ...\n"
 "              </p>\n"
 "            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lead_stage_act
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to set a new stage in your lead/opportunity pipeline.\n"
 "              </p><p>\n"
 "                Stages will allow salespersons to easily track how a specific\n"
 "                lead or opportunity is positioned in the sales cycle.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Nhấp chuột để tạo mới một giai đoạn trong quy trình quản lý nguồn dẫn/cơ hội.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click để tạo mới một giai đoạn trong quy trình quản lý nguồn dẫn/cơ hội.\n"
 "              </p><p>\n"
 "                Các giai đoạn sẽ cho phép người dùng dễ dàng theo dõi làm thế nào nguồn dẫn hoặc cơ hội\n"
 "                được đặt vào một chu trình bán hàng.\n"
@@ -163,24 +175,27 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_phonecall_categ_action
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "            Click to add a new category.\n"
 "          </p><p>\n"
 "            Create specific phone call categories to better define the type of\n"
 "            calls tracked in the system.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"            Click to add a new category.\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Click để thêm một danh mục.\n"
 "          </p><p>\n"
-"            Create specific phone call categories to better define the type of\n"
-"            calls tracked in the system.\n"
+"            Tạo danh mục cuộc gọi cụ thể để xác định tốt hơn các loại\n"
+"            cuộc gọi được theo dõi từ hệ thống.\n"
 "          </p>\n"
 "        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_incoming0
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
 "            Odoo allows you to log inbound calls on the fly to track the\n"
@@ -191,21 +206,23 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "            another call, a meeting or an opportunity.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"            Click to log the summary of a phone call. \n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Click để ghi lại nhật ký tóm tắt cuộc gọi. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
-"            history of the communication with a customer or to inform another\n"
-"            team member.\n"
+"            Hệ thống cho phép bạn ghi lại nhật ký các cuộc gọi để theo dõi lịch sử\n"
+"            các giao tiếp với một khách hàng, hoặc thông báo cho thành viên khác\n"
+"            trong nhóm.\n"
 "          </p><p>\n"
-"            In order to follow up on the call, you can trigger a request for\n"
-"            another call, a meeting or an opportunity.\n"
+"            Để theo dõi cuộc gọi, bạn có thể kích hoạt yêu cầu theo dõi một cuộc\n"
+"            họp hoặc một cơ hội.\n"
 "          </p>\n"
 "        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_outgoing0
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
 "            Odoo allows you to easily define all the calls to be done\n"
@@ -215,20 +232,22 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "            prospects to qualify.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"            Click to schedule a call \n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"            Click để đặt lịch một cuộc gọi \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
-"            by your sales team and follow up based on their summary.\n"
+"            Hệ thống cho phép bạn định tất cả các cuộc gọi được thực hiện\n"
+"            bởi bộ phận kinh doanh và theo dõi dựa trên tóm tắt của họ.\n"
 "          </p><p>  \n"
-"            You can use the import feature to massively import a new list of\n"
-"            prospects to qualify.\n"
+"            Bạn có thể sử dụng tính năng Import một danh sách khách hàng\n"
+"            đủ điều kiện.\n"
 "          </p>\n"
 "        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
-msgid "<p>\n"
+msgid ""
+"<p>\n"
 "                    Odoo helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
@@ -237,19 +256,21 @@ msgid "<p>\n"
 "                    documents, track all discussions, and much more.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
-"                    up potential sales and better forecast your future revenues.\n"
+msgstr ""
+"<p>\n"
+"                    Hệ thống giúp bạn kiểm tra bán hàng để theo dõi doanh số\n"
+"                    bán hàng và dự báo doanh thu trong tương lai.\n"
 "                </p><p>\n"
-"                    You will be able to plan meetings and phone calls from\n"
-"                    opportunities, convert them into quotations, attach related\n"
-"                    documents, track all discussions, and much more.\n"
+"                    Bạn có thể lập kế hoạch các cuộc gặp và cuộc gọi từ các cơ\n"
+"                    hội chuyển chúng thành báo giá, đính kèm các tài liệu liên\n"
+"                    quan, theo dõi các thảo luận, ...\n"
 "                </p>\n"
 "            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
-msgid "<p>\n"
+msgid ""
+"<p>\n"
 "                    Use leads if you need a qualification step before creating an\n"
 "                    opportunity or a customer. It can be a business card you received,\n"
 "                    a contact form filled in your website, or a file of unqualified\n"
@@ -259,20 +280,12 @@ msgid "<p>\n"
 "                    opportunity and/or a new customer in your address book.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n"
-"                    Use leads if you need a qualification step before creating an\n"
-"                    opportunity or a customer. It can be a business card you received,\n"
-"                    a contact form filled in your website, or a file of unqualified\n"
-"                    prospects you import, etc.\n"
-"                </p><p>\n"
-"                    Once qualified, the lead can be converted into a business\n"
-"                    opportunity and/or a new customer in your address book.\n"
-"                </p>\n"
-"            "
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
-msgid "<p>\n"
+msgid ""
+"<p>\n"
 "                Odoo helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
@@ -281,19 +294,21 @@ msgid "<p>\n"
 "                documents, track all discussions, and much more.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
-"                up potential sales and better forecast your future revenues.\n"
-"            </p><p>\n"
-"                You will be able to plan meetings and phone calls from\n"
-"                opportunities, convert them into quotations, attach related\n"
-"                documents, track all discussions, and much more.\n"
-"            </p>\n"
+msgstr ""
+"<p>\n"
+"                Sử dụng cơ hội để theo dõi quá trình bán hàng, theo dõi \n"
+"                đơn hàng tiềm năng và dự báo tốt hơn về doanh thu trong tương lai.\n"
+"              </p><p>\n"
+"                Bạn có thể lập kế hoạch cho các cuộc gặp, cuộc họp và cuộc gọi từ các cơ hội\n"
+"                chuyển chúng thành báo giá, đính kèm tài liệu liên quan\n"
+"                theo dõi tất cả các thảo luận,...\n"
+"              </p>\n"
 "        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_leads_all
-msgid "<p>\n"
+msgid ""
+"<p>\n"
 "                Use leads if you need a qualification step before creating an\n"
 "                opportunity or a customer. It can be a business card you received,\n"
 "                a contact form filled in your website, or a file of unqualified\n"
@@ -303,7 +318,8 @@ msgid "<p>\n"
 "                opportunity and/or a new customer in your address book.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n"
+msgstr ""
+"<p>\n"
 "                Use leads if you need a qualification step before creating an\n"
 "                opportunity or a customer. It can be a business card you received,\n"
 "                a contact form filled in your website, or a file of unqualified\n"
@@ -316,13 +332,15 @@ msgstr "<p>\n"
 
 #. module: crm
 #: model:email.template,body_html:crm.email_template_opportunity_reminder_mail
-msgid "<p>This opportunity did not have any activity since at least 5 days. Here are some details:</p>\n"
+msgid ""
+"<p>This opportunity did not have any activity since at least 5 days. Here are some details:</p>\n"
 "<ul>\n"
 "<li>Name: ${object.name}</li>\n"
 "<li>ID: ${object.id}</li>\n"
 "<li>Description: ${object.description}</field></li>\n"
 "</ul>"
-msgstr "<p>Cơ hội này không có bất kỳ hành động nào kể từ 5 ngày gần đây. Đây là một vài chi tiết:</p>\n"
+msgstr ""
+"<p>Cơ hội này không có bất kỳ hành động nào kể từ 5 ngày gần đây. Đây là một vài chi tiết:</p>\n"
 "<ul>\n"
 "<li>Tên: ${object.name}</li>\n"
 "<li>Mã: ${object.id}</li>\n"
@@ -332,7 +350,7 @@ msgstr "<p>Cơ hội này không có bất kỳ hành động nào kể từ 5 n
 #. module: crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
 msgid "A Meeting"
-msgstr "Một cuộc họp"
+msgstr "Một cuộc gặp"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,exclude_contact:0
@@ -350,8 +368,7 @@ msgid "Action"
 msgstr "Hành động"
 
 #. module: crm
-#: field:crm.lead,active:0
-#: field:crm.phonecall,active:0
+#: field:crm.lead,active:0 field:crm.phonecall,active:0
 #: field:crm.tracking.medium,active:0
 msgid "Active"
 msgstr "Kích hoạt"
@@ -370,12 +387,12 @@ msgstr "Dịch vụ sau bán hàng"
 #. module: crm
 #: field:crm.case.section,alias_id:0
 msgid "Alias"
-msgstr "Bí danh"
+msgstr "Alias"
 
 #. module: crm
 #: field:sale.config.settings,alias_domain:0
 msgid "Alias Domain"
-msgstr "Tên miền bí danh"
+msgstr "Tên miền Alias"
 
 #. module: crm
 #: code:addons/crm/base_partner_merge.py:304
@@ -385,16 +402,20 @@ msgstr "Tất cả liên hệ phải có cùng email. Chỉ Quản trị viên c
 
 #. module: crm
 #: view:sale.config.settings:crm.view_sale_config_settings
-msgid "All emails sent to this address and processed by the mailgateway\n"
+msgid ""
+"All emails sent to this address and processed by the mailgateway\n"
 "                                will create a new lead."
-msgstr "Một email được gửi tới địa chỉ này và được xử lý bởi mail server\n"
+msgstr ""
+"Một email được gửi tới địa chỉ này và được xử lý bởi mail server\n"
 "                                sẽ tạo một nguồn dẫn mới."
 
 #. module: crm
 #: help:sale.config.settings,module_crm_helpdesk:0
-msgid "Allows you to communicate with Customer, process Customer query, and provide better help and support.\n"
+msgid ""
+"Allows you to communicate with Customer, process Customer query, and provide better help and support.\n"
 "-This installs the module crm_helpdesk."
-msgstr "Cho phép bạn giao tiếp với Khách hàng, xử lý yêu cầu của Khách hàng và cung cấp việc quản lý hỗ trợ tốt hơn.\n"
+msgstr ""
+"Cho phép bạn giao tiếp với Khách hàng, xử lý yêu cầu của Khách hàng và cung cấp việc quản lý hỗ trợ tốt hơn.\n"
 "-Việc này sẽ cài đặt phân hệ crm_helpdesk."
 
 #. module: crm
@@ -404,9 +425,11 @@ msgstr "Cho phép bạn theo dõi và quản lý hành động cho việc huy đ
 
 #. module: crm
 #: help:sale.config.settings,module_crm_claim:0
-msgid "Allows you to track your customers/suppliers claims and grievances.\n"
+msgid ""
+"Allows you to track your customers/suppliers claims and grievances.\n"
 "-This installs the module crm_claim."
-msgstr "Cho phép bạn theo dõi khiếu nại của Khách hàng/Nhà cung cấp.\n"
+msgstr ""
+"Cho phép bạn theo dõi khiếu nại của Khách hàng/Nhà cung cấp.\n"
 "-Việc này sẽ cài đặt phân hệ crm_claim."
 
 #. module: crm
@@ -470,34 +493,34 @@ msgstr "Cả hai"
 #. module: crm
 #: field:crm.lead,message_bounce:0
 msgid "Bounce"
-msgstr "Bounce"
+msgstr "Bị trả lại"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_leads_country
 #: model:ir.filters,name:crm.filter_opportunity_country
 msgid "By Country"
-msgstr "By Country"
+msgstr "Theo quốc gia"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_crm_phonecall_sales_team
 msgid "By Sales Team"
-msgstr "By Sales Team"
+msgstr ""
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_leads_salesperson
 #: model:ir.filters,name:crm.filter_opportunity_salesperson
 msgid "By Salespersons"
-msgstr "By Salespersons"
+msgstr ""
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_report
 msgid "CRM Lead Analysis"
-msgstr "Phân tích Nguồn dẫn CRM"
+msgstr "Phân tích Nguồn dẫn"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_opportunity_report
 msgid "CRM Opportunity Analysis"
-msgstr "CRM Opportunity Analysis"
+msgstr "Phân tích Cơ hội"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_payment_mode
@@ -530,8 +553,7 @@ msgstr "Ngày gọi theo tháng"
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
-#: field:crm.lead,campaign_id:0
-#: field:crm.lead.report,campaign_id:0
+#: field:crm.lead,campaign_id:0 field:crm.lead.report,campaign_id:0
 #: field:crm.opportunity.report,campaign_id:0
 #: view:crm.tracking.campaign:crm.crm_tracking_campaign_form
 #: view:crm.tracking.campaign:crm.crm_tracking_campaign_tree
@@ -561,8 +583,7 @@ msgid "Cancel"
 msgstr "Hủy bỏ"
 
 #. module: crm
-#: selection:crm.phonecall,state:0
-#: selection:crm.phonecall.report,state:0
+#: selection:crm.phonecall,state:0 selection:crm.phonecall.report,state:0
 msgid "Cancelled"
 msgstr "Đã hủy"
 
@@ -570,12 +591,12 @@ msgstr "Đã hủy"
 #: view:crm.case.categ:crm.crm_case_categ-view
 #: view:crm.case.categ:crm.crm_case_categ_tree-view
 msgid "Case Category"
-msgstr "Case Category"
+msgstr "Danh mục"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_section_act_tree
 msgid "Cases by Sales Team"
-msgstr "Cases by Sales Team"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_crm_case_phonecall-act
@@ -588,8 +609,7 @@ msgid "Categorization"
 msgstr "Phân nhóm"
 
 #. module: crm
-#: field:crm.phonecall,categ_id:0
-#: field:crm.phonecall.report,categ_id:0
+#: field:crm.phonecall,categ_id:0 field:crm.phonecall.report,categ_id:0
 #: field:crm.phonecall2phonecall,categ_id:0
 msgid "Category"
 msgstr "Nhóm"
@@ -597,7 +617,7 @@ msgstr "Nhóm"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_case_categ
 msgid "Category of Case"
-msgstr "Category of Case"
+msgstr ""
 
 #. module: crm
 #: field:crm.case.stage,on_change:0
@@ -607,8 +627,7 @@ msgstr "Tự động thay đổi xác suất"
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
-#: field:crm.lead,medium_id:0
-#: field:crm.lead.report,medium_id:0
+#: field:crm.lead,medium_id:0 field:crm.lead.report,medium_id:0
 #: field:crm.opportunity.report,medium_id:0
 #: view:crm.tracking.medium:crm.crm_tracking_medium_view_form
 #: field:crm.tracking.mixin,medium_id:0
@@ -631,10 +650,10 @@ msgstr "Kênh"
 
 #. module: crm
 #: help:crm.segmentation,exclusif:0
-msgid "Check if the category is limited to partners that match the segmentation criterions.                        \n"
+msgid ""
+"Check if the category is limited to partners that match the segmentation criterions.                        \n"
 "If checked, remove the category from partners that doesn't match segmentation criterions"
-msgstr "Check if the category is limited to partners that match the segmentation criterions.                        \n"
-"If checked, remove the category from partners that doesn't match segmentation criterions"
+msgstr ""
 
 #. module: crm
 #: help:crm.segmentation,sales_purchase_active:0
@@ -648,8 +667,7 @@ msgstr "Đánh dấu để quản lý cơ hội trong đội ngũ bán hàng nà
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
-#: view:crm.lead:crm.crm_case_form_view_oppor
-#: field:crm.lead,city:0
+#: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,city:0
 msgid "City"
 msgstr "Thành phố"
 
@@ -681,8 +699,7 @@ msgid "Close Date"
 msgstr "Ngày đóng"
 
 #. module: crm
-#: field:crm.lead,date_closed:0
-#: field:crm.phonecall,date_closed:0
+#: field:crm.lead,date_closed:0 field:crm.phonecall,date_closed:0
 msgid "Closed"
 msgstr "Đã đóng"
 
@@ -703,8 +720,7 @@ msgstr "Mã màu"
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: field:crm.lead.report,company_id:0
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
-#: field:crm.opportunity.report,company_id:0
-#: field:crm.phonecall,company_id:0
+#: field:crm.opportunity.report,company_id:0 field:crm.phonecall,company_id:0
 #: field:crm.phonecall.report,company_id:0
 msgid "Company"
 msgstr "Công ty"
@@ -759,7 +775,7 @@ msgstr "Tiếp túc tiến trình"
 #. module: crm
 #: field:crm.segmentation.line,expr_name:0
 msgid "Control Variable"
-msgstr "Control Variable"
+msgstr ""
 
 #. module: crm
 #: field:crm.lead2opportunity.partner,name:0
@@ -839,29 +855,24 @@ msgstr "Tạo khác hàng mới"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,create_uid:0
 #: field:base.partner.merge.line,create_uid:0
-#: field:crm.case.categ,create_uid:0
-#: field:crm.case.stage,create_uid:0
-#: field:crm.lead,create_uid:0
-#: field:crm.lead2opportunity.partner,create_uid:0
+#: field:crm.case.categ,create_uid:0 field:crm.case.stage,create_uid:0
+#: field:crm.lead,create_uid:0 field:crm.lead2opportunity.partner,create_uid:0
 #: field:crm.lead2opportunity.partner.mass,create_uid:0
 #: field:crm.merge.opportunity,create_uid:0
-#: field:crm.partner.binding,create_uid:0
-#: field:crm.payment.mode,create_uid:0
-#: field:crm.phonecall,create_uid:0
-#: field:crm.phonecall2phonecall,create_uid:0
+#: field:crm.partner.binding,create_uid:0 field:crm.payment.mode,create_uid:0
+#: field:crm.phonecall,create_uid:0 field:crm.phonecall2phonecall,create_uid:0
 #: field:crm.segmentation,create_uid:0
 #: field:crm.segmentation.line,create_uid:0
 #: field:crm.tracking.campaign,create_uid:0
 #: field:crm.tracking.medium,create_uid:0
 #: field:crm.tracking.source,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "Tạo bởi"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,create_date:0
 #: field:base.partner.merge.line,create_date:0
-#: field:crm.case.categ,create_date:0
-#: field:crm.case.stage,create_date:0
+#: field:crm.case.categ,create_date:0 field:crm.case.stage,create_date:0
 #: field:crm.lead2opportunity.partner,create_date:0
 #: field:crm.lead2opportunity.partner.mass,create_date:0
 #: field:crm.merge.opportunity,create_date:0
@@ -874,7 +885,7 @@ msgstr "Created by"
 #: field:crm.tracking.medium,create_date:0
 #: field:crm.tracking.source,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Tạo trên"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -882,8 +893,7 @@ msgid "Creation"
 msgstr "Tạo"
 
 #. module: crm
-#: field:crm.lead,create_date:0
-#: field:crm.lead.report,create_date:0
+#: field:crm.lead,create_date:0 field:crm.lead.report,create_date:0
 #: field:crm.opportunity.report,create_date:0
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 #: field:crm.phonecall,create_date:0
@@ -897,7 +907,7 @@ msgstr "Ngày tạo"
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Creation Month"
-msgstr "Creation Month"
+msgstr "Tháng tạo"
 
 #. module: crm
 #: field:crm.segmentation,segmentation_line:0
@@ -912,11 +922,10 @@ msgstr "Tiền tệ"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,current_line_id:0
 msgid "Current Line"
-msgstr "Current Line"
+msgstr "Nội dung hiện tại"
 
 #. module: crm
-#: code:addons/crm/crm_lead.py:1002
-#: view:crm.lead:crm.crm_case_form_view_leads
+#: code:addons/crm/crm_lead.py:1002 view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 #: view:crm.lead:crm.crm_case_tree_view_oppor
 #: view:crm.lead:crm.view_crm_case_leads_filter
@@ -940,21 +949,19 @@ msgid "Customer Name"
 msgstr "Tên Khách hàng"
 
 #. module: crm
-#: field:crm.phonecall,date:0
-#: field:crm.phonecall2phonecall,date:0
+#: field:crm.phonecall,date:0 field:crm.phonecall2phonecall,date:0
 msgid "Date"
 msgstr "Ngày tháng"
 
 #. module: crm
-#: help:crm.lead,message_last_post:0
-#: help:crm.phonecall,message_last_post:0
+#: help:crm.lead,message_last_post:0 help:crm.phonecall,message_last_post:0
 msgid "Date of the last message posted on the record."
 msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
 
 #. module: crm
 #: field:crm.lead,day_open:0
 msgid "Days to Assign"
-msgstr "Days to Assign"
+msgstr "Ngày giao"
 
 #. module: crm
 #: field:crm.lead,day_close:0
@@ -964,7 +971,7 @@ msgstr "Ngày để đóng"
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead2
 msgid "Dead"
-msgstr "Dead"
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.base_partner_merge_automatic_act
@@ -990,29 +997,29 @@ msgstr "Mặc định cho Đội ngũ bán hàng mới"
 #. module: crm
 #: model:ir.filters,name:crm.filter_crm_phonecall_delay_to_close
 msgid "Delay To Close"
-msgstr "Delay To Close"
+msgstr "Đình chỉ Đóng"
 
 #. module: crm
 #: field:crm.lead.report,delay_open:0
 #: field:crm.opportunity.report,delay_open:0
 msgid "Delay to Assign"
-msgstr "Delay to Assign"
+msgstr "Đình chỉ phân công"
 
 #. module: crm
 #: field:crm.lead.report,delay_close:0
 #: field:crm.opportunity.report,delay_close:0
 msgid "Delay to Close"
-msgstr "Delay to Close"
+msgstr ""
 
 #. module: crm
 #: field:crm.phonecall.report,delay_close:0
 msgid "Delay to close"
-msgstr "Delay to close"
+msgstr ""
 
 #. module: crm
 #: field:crm.phonecall.report,delay_open:0
 msgid "Delay to open"
-msgstr "Delay to open"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
@@ -1059,8 +1066,7 @@ msgid "Draft"
 msgstr "Dự thảo"
 
 #. module: crm
-#: field:crm.phonecall,duration:0
-#: field:crm.phonecall.report,duration:0
+#: field:crm.phonecall,duration:0 field:crm.phonecall.report,duration:0
 msgid "Duration"
 msgstr "Khoảng thời gian"
 
@@ -1076,8 +1082,7 @@ msgstr "Sửa..."
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,group_by_email:0
-#: view:crm.lead:crm.crm_case_form_view_oppor
-#: field:crm.lead,email_from:0
+#: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,email_from:0
 #: field:crm.phonecall,email_from:0
 msgid "Email"
 msgstr "Thư điện tử"
@@ -1111,7 +1116,7 @@ msgstr "Lỗi!"
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "Escalate"
-msgstr "Escalate"
+msgstr ""
 
 #. module: crm
 #: help:crm.lead,date_deadline:0
@@ -1142,19 +1147,17 @@ msgstr "Tình trạng Thực hiện"
 #: field:crm.lead.report,date_deadline:0
 #: field:crm.opportunity.report,date_deadline:0
 msgid "Exp. Closing"
-msgstr "Exp. Closing"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
-#: field:crm.lead,date_deadline:0
-#: help:crm.lead.report,date_deadline:0
+#: field:crm.lead,date_deadline:0 help:crm.lead.report,date_deadline:0
 #: help:crm.opportunity.report,date_deadline:0
 msgid "Expected Closing"
 msgstr "Ngày đóng dự kiến"
 
 #. module: crm
-#: field:crm.lead,planned_revenue:0
-#: field:crm.lead.report,probable_revenue:0
+#: field:crm.lead,planned_revenue:0 field:crm.lead.report,probable_revenue:0
 #: field:crm.opportunity.report,expected_revenue:0
 msgid "Expected Revenue"
 msgstr "Doanh thu mong đợi"
@@ -1168,18 +1171,18 @@ msgstr "Doanh thu mong đợi"
 #. module: crm
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Expiration Closing"
-msgstr "Expiration Closing"
+msgstr ""
 
 #. module: crm
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Expiration Closing Month"
-msgstr "Expiration Closing Month"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Extended Filters"
-msgstr "Extended Filters"
+msgstr ""
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -1204,7 +1207,7 @@ msgstr "Đã kết thúc"
 #. module: crm
 #: field:crm.case.stage,fold:0
 msgid "Folded in Kanban View"
-msgstr "Folded in Kanban View"
+msgstr "Thư mục trong Kanban"
 
 #. module: crm
 #: field:crm.lead,message_follower_ids:0
@@ -1221,7 +1224,7 @@ msgstr "Vì lý do an toàn, bạn không thể trộn nhiều hơn 3 liên hệ
 #. module: crm
 #: field:crm.lead2opportunity.partner.mass,force_assignation:0
 msgid "Force assignation"
-msgstr "Force assignation"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:566
@@ -1247,7 +1250,7 @@ msgstr "Gây quỹ"
 #. module: crm
 #: field:crm.lead,email_cc:0
 msgid "Global CC"
-msgstr "Global CC"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
@@ -1257,7 +1260,7 @@ msgstr "Global CC"
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,number_group:0
@@ -1267,12 +1270,12 @@ msgstr "Nhóm liên hệ"
 #. module: crm
 #: model:ir.model,name:crm.model_ir_http
 msgid "HTTP routing"
-msgstr "HTTP routing"
+msgstr ""
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_partner_binding
 msgid "Handle partner binding or generation in CRM wizards."
-msgstr "Handle partner binding or generation in CRM wizards."
+msgstr ""
 
 #. module: crm
 #: selection:crm.phonecall,state:0
@@ -1282,8 +1285,7 @@ msgid "Held"
 msgstr "Trợ giúp"
 
 #. module: crm
-#: selection:crm.lead,priority:0
-#: selection:crm.lead.report,priority:0
+#: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
 #: selection:crm.opportunity.report,priority:0
 #: selection:crm.phonecall,priority:0
 #: selection:crm.phonecall.report,priority:0
@@ -1291,32 +1293,22 @@ msgid "High"
 msgstr "Cao"
 
 #. module: crm
-#: help:crm.lead,message_summary:0
-#: help:crm.phonecall,message_summary:0
+#: help:crm.lead,message_summary:0 help:crm.phonecall,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Giữ tóm tắt Tán gẫu (số tin nhắn,...)"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,id:0
-#: field:base.partner.merge.line,id:0
-#: field:crm.case.categ,id:0
-#: field:crm.case.stage,id:0
-#: field:crm.lead,id:0
-#: field:crm.lead.report,id:0
+#: field:base.partner.merge.line,id:0 field:crm.case.categ,id:0
+#: field:crm.case.stage,id:0 field:crm.lead,id:0 field:crm.lead.report,id:0
 #: field:crm.lead2opportunity.partner,id:0
 #: field:crm.lead2opportunity.partner.mass,id:0
-#: field:crm.merge.opportunity,id:0
-#: field:crm.opportunity.report,id:0
-#: field:crm.partner.binding,id:0
-#: field:crm.payment.mode,id:0
-#: field:crm.phonecall,id:0
-#: field:crm.phonecall.report,id:0
-#: field:crm.phonecall2phonecall,id:0
-#: field:crm.segmentation,id:0
-#: field:crm.segmentation.line,id:0
-#: field:crm.tracking.campaign,id:0
-#: field:crm.tracking.medium,id:0
-#: field:crm.tracking.mixin,id:0
+#: field:crm.merge.opportunity,id:0 field:crm.opportunity.report,id:0
+#: field:crm.partner.binding,id:0 field:crm.payment.mode,id:0
+#: field:crm.phonecall,id:0 field:crm.phonecall.report,id:0
+#: field:crm.phonecall2phonecall,id:0 field:crm.segmentation,id:0
+#: field:crm.segmentation.line,id:0 field:crm.tracking.campaign,id:0
+#: field:crm.tracking.medium,id:0 field:crm.tracking.mixin,id:0
 #: field:crm.tracking.source,id:0
 msgid "ID"
 msgstr "ID"
@@ -1327,10 +1319,9 @@ msgid "Ids"
 msgstr "Ids"
 
 #. module: crm
-#: help:crm.lead,message_unread:0
-#: help:crm.phonecall,message_unread:0
+#: help:crm.lead,message_unread:0 help:crm.phonecall,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "Nếu tick sẽ yêu cầu bạn chú ý khi có tin nhắn."
 
 #. module: crm
 #: help:crm.lead,opt_out:0
@@ -1386,19 +1377,17 @@ msgid "Journal Items associated to the contact"
 msgstr "Phát sinh kế toán liên quan tới liên hệ"
 
 #. module: crm
-#: field:crm.lead,date_action_last:0
-#: field:crm.phonecall,date_action_last:0
+#: field:crm.lead,date_action_last:0 field:crm.phonecall,date_action_last:0
 msgid "Last Action"
 msgstr "Hành động Cuối cùng"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 msgid "Last Message"
-msgstr "Last Message"
+msgstr "Tin nhắn cuối cùng"
 
 #. module: crm
-#: field:crm.lead,message_last_post:0
-#: field:crm.phonecall,message_last_post:0
+#: field:crm.lead,message_last_post:0 field:crm.phonecall,message_last_post:0
 msgid "Last Message Date"
 msgstr "Ngày thông điệp cuối cùng"
 
@@ -1407,54 +1396,43 @@ msgstr "Ngày thông điệp cuối cùng"
 #: field:crm.lead.report,date_last_stage_update:0
 #: field:crm.opportunity.report,date_last_stage_update:0
 msgid "Last Stage Update"
-msgstr "Last Stage Update"
+msgstr "Cập nhật trạng thái"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,write_uid:0
-#: field:base.partner.merge.line,write_uid:0
-#: field:crm.case.categ,write_uid:0
-#: field:crm.case.stage,write_uid:0
-#: field:crm.lead,write_uid:0
+#: field:base.partner.merge.line,write_uid:0 field:crm.case.categ,write_uid:0
+#: field:crm.case.stage,write_uid:0 field:crm.lead,write_uid:0
 #: field:crm.lead2opportunity.partner,write_uid:0
 #: field:crm.lead2opportunity.partner.mass,write_uid:0
 #: field:crm.merge.opportunity,write_uid:0
-#: field:crm.partner.binding,write_uid:0
-#: field:crm.payment.mode,write_uid:0
-#: field:crm.phonecall,write_uid:0
-#: field:crm.phonecall2phonecall,write_uid:0
-#: field:crm.segmentation,write_uid:0
-#: field:crm.segmentation.line,write_uid:0
+#: field:crm.partner.binding,write_uid:0 field:crm.payment.mode,write_uid:0
+#: field:crm.phonecall,write_uid:0 field:crm.phonecall2phonecall,write_uid:0
+#: field:crm.segmentation,write_uid:0 field:crm.segmentation.line,write_uid:0
 #: field:crm.tracking.campaign,write_uid:0
-#: field:crm.tracking.medium,write_uid:0
-#: field:crm.tracking.source,write_uid:0
+#: field:crm.tracking.medium,write_uid:0 field:crm.tracking.source,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,write_date:0
 #: field:base.partner.merge.line,write_date:0
-#: field:crm.case.categ,write_date:0
-#: field:crm.case.stage,write_date:0
+#: field:crm.case.categ,write_date:0 field:crm.case.stage,write_date:0
 #: field:crm.lead2opportunity.partner,write_date:0
 #: field:crm.lead2opportunity.partner.mass,write_date:0
 #: field:crm.merge.opportunity,write_date:0
-#: field:crm.partner.binding,write_date:0
-#: field:crm.payment.mode,write_date:0
-#: field:crm.phonecall,write_date:0
-#: field:crm.phonecall2phonecall,write_date:0
+#: field:crm.partner.binding,write_date:0 field:crm.payment.mode,write_date:0
+#: field:crm.phonecall,write_date:0 field:crm.phonecall2phonecall,write_date:0
 #: field:crm.segmentation,write_date:0
 #: field:crm.segmentation.line,write_date:0
 #: field:crm.tracking.campaign,write_date:0
 #: field:crm.tracking.medium,write_date:0
 #: field:crm.tracking.source,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Cập nhật lần cuối trên"
 
 #. module: crm
-#: code:addons/crm/crm_lead.py:896
-#: selection:crm.case.stage,type:0
-#: view:crm.lead:crm.crm_case_form_view_oppor
-#: selection:crm.lead,type:0
+#: code:addons/crm/crm_lead.py:896 selection:crm.case.stage,type:0
+#: view:crm.lead:crm.crm_case_form_view_oppor selection:crm.lead,type:0
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: selection:crm.lead.report,type:0
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
@@ -1485,15 +1463,14 @@ msgid "Lead created"
 msgstr "Nguồn dẫn được tạo"
 
 #. module: crm
-#: field:crm.phonecall,opportunity_id:0
-#: model:ir.model,name:crm.model_crm_lead
+#: field:crm.phonecall,opportunity_id:0 model:ir.model,name:crm.model_crm_lead
 msgid "Lead/Opportunity"
 msgstr "Nguồn dẫn/Cơ hội"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mass_mail
 msgid "Lead/Opportunity Mass Mail"
-msgstr "Lead/Opportunity Mass Mail"
+msgstr "Email hàng loạt Nguồn dẫn / Cơ hội"
 
 #. module: crm
 #: view:crm.case.section:crm.crm_case_section_salesteams_view_kanban
@@ -1537,7 +1514,7 @@ msgstr "Email bí danh của Nguồn dẫn"
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
 msgid "Leads Form"
-msgstr "Leads Form"
+msgstr "Mẫu nguồn dẫn"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_calendar_view_leads
@@ -1557,7 +1534,7 @@ msgstr "Nguồn dẫn được giao cho bạn"
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 msgid "Leads that did not ask not to be included in mass mailing campaigns"
-msgstr "Leads that did not ask not to be included in mass mailing campaigns"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead2opportunity.partner.mass:crm.view_crm_lead2opportunity_partner_mass
@@ -1577,7 +1554,7 @@ msgstr "Nguồn dẫn/Cơ hội"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,line_ids:0
 msgid "Lines"
-msgstr "Lines"
+msgstr "Nội dung"
 
 #. module: crm
 #: help:crm.case.stage,section_ids:0
@@ -1620,7 +1597,7 @@ msgstr "Nhật ký cuộc gọi cho %(date)s. %(description)s"
 #. module: crm
 #: model:ir.filters,name:crm.filter_leads_long_term_revenue
 msgid "Long Term Revenue"
-msgstr "Long Term Revenue"
+msgstr ""
 
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead7
@@ -1631,8 +1608,7 @@ msgid "Lost"
 msgstr "Thất bại"
 
 #. module: crm
-#: selection:crm.lead,priority:0
-#: selection:crm.lead.report,priority:0
+#: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
 #: selection:crm.opportunity.report,priority:0
 #: selection:crm.phonecall,priority:0
 #: selection:crm.phonecall.report,priority:0
@@ -1642,13 +1618,13 @@ msgstr "Thấp"
 #. module: crm
 #: model:crm.tracking.source,name:crm.crm_source_mailing
 msgid "Mailing Partner"
-msgstr "Mailing Partner"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "Mailings"
-msgstr "Mailings"
+msgstr ""
 
 #. module: crm
 #: field:sale.config.settings,module_crm_claim:0
@@ -1694,12 +1670,12 @@ msgstr "Đánh dấu thắng"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Mass Lead To Opportunity Partner"
-msgstr "Mass Lead To Opportunity Partner"
+msgstr ""
 
 #. module: crm
 #: field:crm.segmentation,partner_id:0
 msgid "Max Partner ID processed"
-msgstr "Max Partner ID processed"
+msgstr ""
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,maximum_group:0
@@ -1816,14 +1792,12 @@ msgid "Merged with the following partners:"
 msgstr "Được trộn với đối tác sau:"
 
 #. module: crm
-#: field:crm.lead,message_ids:0
-#: field:crm.phonecall,message_ids:0
+#: field:crm.lead,message_ids:0 field:crm.phonecall,message_ids:0
 msgid "Messages"
 msgstr "Thông điệp"
 
 #. module: crm
-#: help:crm.lead,message_ids:0
-#: help:crm.phonecall,message_ids:0
+#: help:crm.lead,message_ids:0 help:crm.phonecall,message_ids:0
 msgid "Messages and communication history"
 msgstr "Lịch sử thông điệp và liên lạc"
 
@@ -1839,20 +1813,19 @@ msgid "Misc"
 msgstr "Khác"
 
 #. module: crm
-#: field:crm.lead,mobile:0
-#: field:crm.phonecall,partner_mobile:0
+#: field:crm.lead,mobile:0 field:crm.phonecall,partner_mobile:0
 msgid "Mobile"
 msgstr "Di động"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "Month"
-msgstr "Month"
+msgstr "Tháng"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Month of call"
-msgstr "Month of call"
+msgstr "Tháng của cuộc gọi"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
@@ -1872,7 +1845,7 @@ msgstr "Cuộc gọi của bạn"
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "My Phonecalls"
-msgstr "My Phonecalls"
+msgstr "Các cuộc gọi của tôi"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -1882,12 +1855,11 @@ msgstr "Đội ngũ bán hàng của bạn"
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "My Team"
-msgstr "My Team"
+msgstr "Nhóm của tôi"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,group_by_name:0
-#: field:crm.case.categ,name:0
-#: field:crm.payment.mode,name:0
+#: field:crm.case.categ,name:0 field:crm.payment.mode,name:0
 #: field:crm.segmentation,name:0
 msgid "Name"
 msgstr "Tên"
@@ -1908,16 +1880,15 @@ msgstr "Mới"
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "New Mail"
-msgstr "New Mail"
+msgstr "Thư mới"
 
 #. module: crm
 #: model:crm.tracking.source,name:crm.crm_source_newsletter
 msgid "Newsletter"
-msgstr "Newsletter"
+msgstr ""
 
 #. module: crm
-#: field:crm.lead,date_action_next:0
-#: field:crm.lead,title_action:0
+#: field:crm.lead,date_action_next:0 field:crm.lead,title_action:0
 #: field:crm.phonecall,date_action_next:0
 msgid "Next Action"
 msgstr "Hành động tiếp theo"
@@ -1946,8 +1917,7 @@ msgid "No salesperson"
 msgstr "Không có nhân viên bán hàng"
 
 #. module: crm
-#: selection:crm.lead,priority:0
-#: selection:crm.lead.report,priority:0
+#: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
 #: selection:crm.opportunity.report,priority:0
 #: selection:crm.phonecall,priority:0
 #: selection:crm.phonecall.report,priority:0
@@ -1957,7 +1927,7 @@ msgstr "Thông thường"
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Not Held"
-msgstr "Not Held"
+msgstr ""
 
 #. module: crm
 #: selection:crm.segmentation,state:0
@@ -1982,8 +1952,7 @@ msgid "Number of Days to close the case"
 msgstr "Số ngày để đóng trường hợp"
 
 #. module: crm
-#: help:crm.lead.report,delay_open:0
-#: help:crm.opportunity.report,delay_open:0
+#: help:crm.lead.report,delay_open:0 help:crm.opportunity.report,delay_open:0
 #: help:crm.phonecall.report,delay_open:0
 msgid "Number of Days to open the case"
 msgstr "Số ngày để mở trường hợp"
@@ -1997,7 +1966,7 @@ msgstr "Tên đối tượng"
 #: code:addons/crm/base_partner_merge.py:316
 #, python-format
 msgid "Only the destination contact may be linked to existing Journal Items. Please ask the Administrator if you need to merge several contacts linked to existing Journal Items."
-msgstr "Chỉ liên hệ đến (destination contact) mới có thể liên kết tới một phát sinh đã tồn tại. Vui lòng hỏi Quản trị viên nếu bạn cần trộng một vài liên hệ tới các phát sinh đã tồn tại."
+msgstr "Chỉ liên hệ đến mới có thể liên kết tới một phát sinh đã tồn tại. Vui lòng hỏi Quản trị viên nếu bạn cần trộng một vài liên hệ tới các phát sinh đã tồn tại."
 
 #. module: crm
 #: view:crm.case.section:crm.crm_case_section_salesteams_view_kanban
@@ -2023,7 +1992,7 @@ msgstr "Ngày mở"
 #. module: crm
 #: field:crm.segmentation.line,expr_operator:0
 msgid "Operator"
-msgstr "Operator"
+msgstr "Điều hành"
 
 #. module: crm
 #: view:crm.case.section:crm.crm_case_section_salesteams_view_kanban
@@ -2060,12 +2029,12 @@ msgstr "Bản phân tích Cơ hội cho phép bạn truy cập nhanh đến các
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_opportunities_cohort
 msgid "Opportunities Cohort"
-msgstr "Opportunities Cohort"
+msgstr ""
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_opportunities_won_per_team
 msgid "Opportunities Won Per Team"
-msgstr "Opportunities Won Per Team"
+msgstr ""
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
@@ -2073,10 +2042,8 @@ msgid "Opportunities that are assigned to me"
 msgstr "Cơ hội được giao cho bạn"
 
 #. module: crm
-#: code:addons/crm/crm_lead.py:875
-#: field:calendar.event,opportunity_id:0
-#: selection:crm.case.stage,type:0
-#: view:crm.lead:crm.crm_case_tree_view_oppor
+#: code:addons/crm/crm_lead.py:875 field:calendar.event,opportunity_id:0
+#: selection:crm.case.stage,type:0 view:crm.lead:crm.crm_case_tree_view_oppor
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 #: selection:crm.lead,type:0
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
@@ -2119,7 +2086,7 @@ msgstr "Cơ hội chiến thắng"
 #. module: crm
 #: field:crm.lead,opt_out:0
 msgid "Opt-Out"
-msgstr "Opt-Out"
+msgstr ""
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
@@ -2164,8 +2131,7 @@ msgid "Parent Company"
 msgstr "Công ty mẹ"
 
 #. module: crm
-#: view:crm.lead:crm.view_crm_case_leads_filter
-#: field:crm.lead,partner_id:0
+#: view:crm.lead:crm.view_crm_case_leads_filter field:crm.lead,partner_id:0
 #: field:crm.lead.report,partner_id:0
 #: field:crm.opportunity.report,partner_id:0
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -2200,7 +2166,7 @@ msgstr "Phân khúc đối tác"
 #: view:crm.segmentation.line:crm.crm_segmentation_line-view
 #: view:crm.segmentation.line:crm.crm_segmentation_line_tree-view
 msgid "Partner Segmentation Lines"
-msgstr "Partner Segmentation Lines"
+msgstr ""
 
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation_tree-view
@@ -2232,16 +2198,13 @@ msgid "Payment Modes"
 msgstr "Hình thức thanh toán"
 
 #. module: crm
-#: selection:crm.phonecall,state:0
-#: selection:crm.phonecall.report,state:0
+#: selection:crm.phonecall,state:0 selection:crm.phonecall.report,state:0
 msgid "Pending"
 msgstr "Đang chờ"
 
 #. module: crm
-#: field:crm.lead,phone:0
-#: view:crm.phonecall:crm.crm_case_phone_form_view
-#: field:crm.phonecall,partner_phone:0
-#: field:crm.phonecall2phonecall,phone:0
+#: field:crm.lead,phone:0 view:crm.phonecall:crm.crm_case_phone_form_view
+#: field:crm.phonecall,partner_phone:0 field:crm.phonecall2phonecall,phone:0
 msgid "Phone"
 msgstr "Điện thoại"
 
@@ -2271,7 +2234,7 @@ msgstr "Phân tích cuộc gọi"
 #. module: crm
 #: model:ir.filters,name:crm.filter_crm_phonecall_phone_call_to_do
 msgid "Phone Calls To Do"
-msgstr "Phone Calls To Do"
+msgstr "Cuộc gọi cần thực hiện"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -2287,7 +2250,7 @@ msgstr "Cuộc gọi"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_phonecall_report
 msgid "Phone calls by user and section"
-msgstr "Phone calls by user and section"
+msgstr ""
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -2323,12 +2286,11 @@ msgstr "Nhóm cuộc gọi"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_phonecall2phonecall
 msgid "Phonecall To Phonecall"
-msgstr "Phonecall To Phonecall"
+msgstr ""
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
-#: field:res.partner,phonecall_count:0
-#: field:res.partner,phonecall_ids:0
+#: field:res.partner,phonecall_count:0 field:res.partner,phonecall_ids:0
 msgid "Phonecalls"
 msgstr "Cuộc gọi"
 
@@ -2360,10 +2322,8 @@ msgid "Pre-Sale Services"
 msgstr "Dịch vụ trước bán hàng"
 
 #. module: crm
-#: field:crm.lead,priority:0
-#: field:crm.lead.report,priority:0
-#: field:crm.opportunity.report,priority:0
-#: field:crm.phonecall,priority:0
+#: field:crm.lead,priority:0 field:crm.lead.report,priority:0
+#: field:crm.opportunity.report,priority:0 field:crm.phonecall,priority:0
 #: field:crm.phonecall.report,priority:0
 msgid "Priority"
 msgstr "Mức độ ưu tiên"
@@ -2407,7 +2367,7 @@ msgstr "Tham chiếu"
 #. module: crm
 #: field:crm.lead,ref2:0
 msgid "Reference 2"
-msgstr "Tham chieus 2"
+msgstr "Tham chiếu 2"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_oppor
@@ -2446,7 +2406,7 @@ msgstr "Người phụ trách"
 #. module: crm
 #: model:ir.filters,name:crm.filter_leads_revenue_per_lead
 msgid "Revenue Per Lead"
-msgstr "Revenue Per Lead"
+msgstr "Lợi nhuận cho mỗi đầu mối"
 
 #. module: crm
 #: field:crm.segmentation.line,name:0
@@ -2471,13 +2431,13 @@ msgstr "Dịch vụ bán hàng"
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
 msgid "Sales Purchase"
-msgstr "Sales Purchase"
+msgstr "Mua bán hàng"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_categ_action
 #: model:ir.ui.menu,name:crm.menu_crm_lead_categ
 msgid "Sales Tags"
-msgstr "Sales Tags"
+msgstr "Tag bán hàng"
 
 #. module: crm
 #: field:crm.case.categ,section_id:0
@@ -2531,7 +2491,7 @@ msgstr "Nhân viên bán hàng"
 #. module: crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
 msgid "Schedule"
-msgstr "Schedule"
+msgstr "Đặt lịch"
 
 #. module: crm
 #: view:crm.phonecall2phonecall:crm.phonecall_to_phonecall_view
@@ -2557,7 +2517,7 @@ msgstr "Đặt lịch một cuộc gọi"
 #. module: crm
 #: field:sale.config.settings,group_scheduled_calls:0
 msgid "Schedule calls to manage call center"
-msgstr "Schedule calls to manage call center"
+msgstr "Lịch gọi để quản lý cuộc gọi"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -2580,7 +2540,7 @@ msgstr "Cuộc gọi dự kiến"
 #: code:addons/crm/crm_lead.py:1064
 #, python-format
 msgid "Scheduled a call for %(date)s. %(description)s"
-msgstr "Scheduled a call for %(date)s. %(description)s"
+msgstr "Đặt lịch cuộc gọi cho %(date)s. %(description)s"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -2590,7 +2550,7 @@ msgstr "Tìm kiếm"
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 msgid "Search Leads"
-msgstr "Tìm kiếm Nguồn dẫn"
+msgstr "Tìm kiếm Đầu mối"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
@@ -2605,22 +2565,22 @@ msgstr "Tìm kiếm Cuộc gọi"
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
 msgid "Search duplicates based on duplicated data in"
-msgstr "Search duplicates based on duplicated data in"
+msgstr ""
 
 #. module: crm
 #: model:crm.tracking.source,name:crm.crm_source_search_engine
 msgid "Search engine"
-msgstr "Search engine"
+msgstr ""
 
 #. module: crm
 #: field:crm.phonecall.report,section_id:0
 msgid "Section"
-msgstr "Section"
+msgstr ""
 
 #. module: crm
 #: field:crm.case.stage,section_ids:0
 msgid "Sections"
-msgstr "Sections"
+msgstr ""
 
 #. module: crm
 #: field:crm.segmentation.line,segmentation_id:0
@@ -2650,19 +2610,20 @@ msgstr "Chọn giai đoạn cho Đội ngũ bán hàng này"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
-msgid "Select the list of fields used to search for\n"
+msgid ""
+"Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
 "                            Odoo will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
-msgstr "Select the list of fields used to search for\n"
-"                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
-"                            all these fields in common. (not one of the fields)."
+msgstr ""
+"Lựa chọn danh sách Trường sử dụng cho tìm kiếm\n"
+"                            hồ sơ trùng lặp. Nếu bạn chọn ít Trường,\n"
+"                            hệ thống sẽ đề xuất bạn nhập những Trường chung."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
 msgid "Selection"
-msgstr "Selection"
+msgstr "Lựa chọn"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
@@ -2682,12 +2643,12 @@ msgstr "Dịch vu"
 #. module: crm
 #: help:crm.case.stage,on_change:0
 msgid "Setting this stage will change the probability automatically on the opportunity."
-msgstr "Setting this stage will change the probability automatically on the opportunity."
+msgstr ""
 
 #. module: crm
 #: model:res.groups,name:crm.group_scheduled_calls
 msgid "Show Scheduled Calls Menu"
-msgstr "Show Scheduled Calls Menu"
+msgstr "Hiển thị menu cuộc gọi"
 
 #. module: crm
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
@@ -2714,20 +2675,19 @@ msgstr "Phần mềm"
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
-#: field:crm.lead,source_id:0
-#: field:crm.lead.report,source_id:0
+#: field:crm.lead,source_id:0 field:crm.lead.report,source_id:0
 #: field:crm.opportunity.report,source_id:0
 #: field:crm.tracking.mixin,source_id:0
 #: model:ir.actions.act_window,name:crm.crm_tracking_source_action
 #: model:ir.model,name:crm.model_crm_tracking_source
 #: model:ir.ui.menu,name:crm.menu_crm_tracking_source
 msgid "Source"
-msgstr "Source"
+msgstr ""
 
 #. module: crm
 #: field:crm.tracking.source,name:0
 msgid "Source Name"
-msgstr "Source Name"
+msgstr ""
 
 #. module: crm
 #: view:crm.case.stage:crm.crm_case_stage_form
@@ -2779,8 +2739,7 @@ msgstr "Giai đoạn"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,state:0
 #: view:crm.lead:crm.crm_case_form_view_leads
-#: view:crm.lead:crm.crm_case_form_view_oppor
-#: field:crm.lead,state_id:0
+#: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,state_id:0
 msgid "State"
 msgstr "Giai đoạn"
 
@@ -2810,7 +2769,7 @@ msgstr "Đường phố..."
 #. module: crm
 #: field:crm.lead,street2:0
 msgid "Street2"
-msgstr "Street2"
+msgstr "Đường phố 2"
 
 #. module: crm
 #: field:crm.lead,name:0
@@ -2823,8 +2782,7 @@ msgid "Success Rate (%)"
 msgstr "Tỉ lệ Thành công (%)"
 
 #. module: crm
-#: field:crm.lead,message_summary:0
-#: field:crm.phonecall,message_summary:0
+#: field:crm.lead,message_summary:0 field:crm.phonecall,message_summary:0
 msgid "Summary"
 msgstr "Tóm tắt"
 
@@ -2837,7 +2795,7 @@ msgstr "Tag"
 #. module: crm
 #: field:crm.lead,categ_ids:0
 msgid "Tags"
-msgstr "Tags"
+msgstr "Tag"
 
 #. module: crm
 #: help:crm.case.section,alias_id:0
@@ -2867,24 +2825,28 @@ msgstr "Nhóm đối tác sẽ được thêm vào đối tác sao cho phù hợ
 #. module: crm
 #: sql_constraint:crm.lead:0
 msgid "The probability of closing the deal should be between 0% and 100%!"
-msgstr "The probability of closing the deal should be between 0% and 100%!"
+msgstr ""
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
-msgid "The selected contacts will be merged together. All\n"
+msgid ""
+"The selected contacts will be merged together. All\n"
 "                                documents linking to one of these contacts will be\n"
 "                                redirected to the aggregated contact. You can remove\n"
 "                                contacts from this list to avoid merging them."
-msgstr "Liên hệ được chọn sẽ được trộn với nhau. \n"
+msgstr ""
+"Liên hệ được chọn sẽ được trộn với nhau. \n"
 "                                Tất cả tài liệu liên kết tới một trong các liên hệ đó sẽ được chuyển hướng tới liên hệ được tổng hợp\n"
 "                                Bạn có thể xóa bỏ liên hệ từ danh sách này để hủy bỏ việc trộn chúng."
 
 #. module: crm
 #: help:crm.phonecall,state:0
-msgid "The status is set to Confirmed, when a case is created.\n"
+msgid ""
+"The status is set to Confirmed, when a case is created.\n"
 "When the call is over, the status is set to Held.\n"
 "If the callis not applicable anymore, the status can be set to Cancelled."
-msgstr "Trạng thái được thiết lập thành Đã xác nhận, khi một trường hợp được tạo.\n"
+msgstr ""
+"Trạng thái được thiết lập thành Đã xác nhận, khi một trường hợp được tạo.\n"
 "Khi cuộc gọi kết thúc, trạng thái được thiết lập thành Held.\n"
 "Nếu danh sách cuộc gọi không áp dụng nữa, trạng thái được thiết lập thành Đã hủy."
 
@@ -2914,33 +2876,28 @@ msgid "This field is used to distinguish stages related to Leads from stages rel
 msgstr "Trường này được sử dụng để phân biệt giai đoạn liên quan tới Nguồn dẫn từ các giai đoạn liên quan tới Cơ hội, hoặc để cả hai."
 
 #. module: crm
-#: help:crm.lead,campaign_id:0
-#: help:crm.lead.report,campaign_id:0
+#: help:crm.lead,campaign_id:0 help:crm.lead.report,campaign_id:0
 #: help:crm.opportunity.report,campaign_id:0
 #: help:crm.tracking.mixin,campaign_id:0
 msgid "This is a name that helps you keep track of your different campaign efforts Ex: Fall_Drive, Christmas_Special"
-msgstr "This is a name that helps you keep track of your different campaign efforts Ex: Fall_Drive, Christmas_Special"
+msgstr ""
 
 #. module: crm
-#: help:crm.lead,medium_id:0
-#: help:crm.lead.report,medium_id:0
-#: help:crm.opportunity.report,medium_id:0
-#: help:crm.tracking.mixin,medium_id:0
+#: help:crm.lead,medium_id:0 help:crm.lead.report,medium_id:0
+#: help:crm.opportunity.report,medium_id:0 help:crm.tracking.mixin,medium_id:0
 msgid "This is the method of delivery. Ex: Postcard, Email, or Banner Ad"
-msgstr "This is the method of delivery. Ex: Postcard, Email, or Banner Ad"
+msgstr ""
 
 #. module: crm
-#: help:crm.lead,source_id:0
-#: help:crm.lead.report,source_id:0
-#: help:crm.opportunity.report,source_id:0
-#: help:crm.tracking.mixin,source_id:0
+#: help:crm.lead,source_id:0 help:crm.lead.report,source_id:0
+#: help:crm.opportunity.report,source_id:0 help:crm.tracking.mixin,source_id:0
 msgid "This is the source of the link Ex: Search Engine, another domain, or name of email list"
-msgstr "This is the source of the link Ex: Search Engine, another domain, or name of email list"
+msgstr ""
 
 #. module: crm
 #: help:crm.case.stage,probability:0
 msgid "This percentage depicts the default/average probability of the Case for this stage to be a success"
-msgstr "This percentage depicts the default/average probability of the Case for this stage to be a success"
+msgstr ""
 
 #. module: crm
 #: help:crm.case.stage,fold:0
@@ -2949,8 +2906,7 @@ msgstr "Giai đoạn này được sắp xếp trong khung nhìn Kanban khi mà 
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
-#: view:crm.lead:crm.crm_case_form_view_oppor
-#: field:crm.lead,title:0
+#: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,title:0
 msgid "Title"
 msgstr "Tiêu đề"
 
@@ -2962,22 +2918,20 @@ msgstr "Cần làm"
 #. module: crm
 #: code:addons/crm/crm_lead.py:399
 #, python-format
-msgid "To relieve your sales pipe and group all Lost opportunities, configure one of your sales stage as follow:\n"
+msgid ""
+"To relieve your sales pipe and group all Lost opportunities, configure one of your sales stage as follow:\n"
 "probability = 0 %, select \"Change Probability Automatically\".\n"
 "Create a specific stage or edit an existing one by editing columns of your opportunity pipe."
-msgstr "To relieve your sales pipe and group all Lost opportunities, configure one of your sales stage as follow:\n"
-"probability = 0 %, select \"Change Probability Automatically\".\n"
-"Create a specific stage or edit an existing one by editing columns of your opportunity pipe."
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:419
 #, python-format
-msgid "To relieve your sales pipe and group all Won opportunities, configure one of your sales stage as follow:\n"
+msgid ""
+"To relieve your sales pipe and group all Won opportunities, configure one of your sales stage as follow:\n"
 "probability = 100 % and select \"Change Probability Automatically\".\n"
 "Create a specific stage or edit an existing one by editing columns of your opportunity pipe."
-msgstr "To relieve your sales pipe and group all Won opportunities, configure one of your sales stage as follow:\n"
-"probability = 100 % and select \"Change Probability Automatically\".\n"
-"Create a specific stage or edit an existing one by editing columns of your opportunity pipe."
+msgstr ""
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -2993,13 +2947,13 @@ msgstr "Công cụ"
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_top_opportunities
 msgid "Top Opportunities"
-msgstr "Top Opportunities"
+msgstr "Cơ hội hàng đầu"
 
 #. module: crm
 #: field:crm.lead.report,planned_revenue:0
 #: field:crm.opportunity.report,total_revenue:0
 msgid "Total Revenue"
-msgstr "Total Revenue"
+msgstr "Tổng lợi nhuận"
 
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor6
@@ -3007,16 +2961,13 @@ msgid "Training"
 msgstr "Đào tạo"
 
 #. module: crm
-#: field:crm.case.stage,type:0
-#: field:crm.lead,type:0
-#: field:crm.lead.report,type:0
-#: field:crm.opportunity.report,type:0
+#: field:crm.case.stage,type:0 field:crm.lead,type:0
+#: field:crm.lead.report,type:0 field:crm.opportunity.report,type:0
 msgid "Type"
 msgstr "Loại"
 
 #. module: crm
-#: help:crm.lead,type:0
-#: help:crm.lead.report,type:0
+#: help:crm.lead,type:0 help:crm.lead.report,type:0
 #: help:crm.opportunity.report,type:0
 msgid "Type is used to separate Leads and Opportunities"
 msgstr "Loại được sử dụng để tách riêng Nguồn dẫn và Cơ hội"
@@ -3029,8 +2980,7 @@ msgid "Unassigned"
 msgstr "Chưa được gán"
 
 #. module: crm
-#: field:crm.lead,message_unread:0
-#: field:crm.phonecall,message_unread:0
+#: field:crm.lead,message_unread:0 field:crm.phonecall,message_unread:0
 msgid "Unread Messages"
 msgstr "Thông điệp chưa đọc"
 
@@ -3052,16 +3002,15 @@ msgstr "Sử dụng đối tác đã tồn tại hoặc tạo mới"
 #. module: crm
 #: help:crm.case.section,resource_calendar_id:0
 msgid "Used to compute open days"
-msgstr "Used to compute open days"
+msgstr ""
 
 #. module: crm
 #: help:crm.case.stage,sequence:0
 msgid "Used to order stages. Lower is better."
-msgstr "Used to order stages. Lower is better."
+msgstr ""
 
 #. module: crm
-#: field:crm.lead.report,user_id:0
-#: field:crm.opportunity.report,user_id:0
+#: field:crm.lead.report,user_id:0 field:crm.opportunity.report,user_id:0
 #: field:crm.phonecall.report,user_id:0
 msgid "User"
 msgstr "Người dùng"
@@ -3087,24 +3036,20 @@ msgid "Value"
 msgstr "Giá trị"
 
 #. module: crm
-#: selection:crm.lead,priority:0
-#: selection:crm.lead.report,priority:0
+#: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
 #: selection:crm.opportunity.report,priority:0
 msgid "Very High"
-msgstr "Very High"
+msgstr "Cao"
 
 #. module: crm
-#: selection:crm.lead,priority:0
-#: selection:crm.lead.report,priority:0
+#: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
 #: selection:crm.opportunity.report,priority:0
 msgid "Very Low"
-msgstr "Very Low"
+msgstr "Thấp"
 
 #. module: crm
-#: code:addons/crm/crm_lead.py:398
-#: code:addons/crm/crm_lead.py:418
-#: code:addons/crm/crm_lead.py:645
-#: code:addons/crm/crm_lead.py:771
+#: code:addons/crm/crm_lead.py:398 code:addons/crm/crm_lead.py:418
+#: code:addons/crm/crm_lead.py:645 code:addons/crm/crm_lead.py:771
 #: code:addons/crm/crm_phonecall.py:291
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:105
 #, python-format
@@ -3137,9 +3082,11 @@ msgstr "Thời gian làm việc"
 #. module: crm
 #: code:addons/crm/crm_lead.py:436
 #, python-format
-msgid "You are already at the top level of your sales-team category.\n"
+msgid ""
+"You are already at the top level of your sales-team category.\n"
 "Therefore you cannot escalate furthermore."
-msgstr "Bạn đã ở cấp cao nhất của nhóm đội ngũ bán hàng.\n"
+msgstr ""
+"Bạn đã ở cấp cao nhất của nhóm đội ngũ bán hàng.\n"
 "Vì vậy bạn không thể nâng cấp lên được nữa."
 
 #. module: crm
@@ -3167,7 +3114,7 @@ msgstr "at"
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "e.g. Call for proposal"
-msgstr "e.g. Call for proposal"
+msgstr "Ví dụ: Gọi để đặt hàng"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:975
@@ -3211,4 +3158,3 @@ msgstr "hoặc"
 #, python-format
 msgid "unknown"
 msgstr "chưa xác định"
-

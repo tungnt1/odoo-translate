@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 12:13+0000\n"
-"PO-Revision-Date: 2015-06-24 20:28+0700\n"
+"PO-Revision-Date: 2015-06-24 17:25+0700\n"
 "Last-Translator: Odoo Server 8.0 <tungnt1@live.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8\n"
 "Language: vi\n"
 
 #. module: point_of_sale
@@ -96,8 +96,7 @@ msgstr "<![endif]-->"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.product_template_action
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new product.\n"
 "              </p><p>\n"
 "                You must define a product for everything you sell through\n"
@@ -109,8 +108,7 @@ msgid ""
 "                interface.\n"
 "              </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                Click để thêm sản phẩm mới.\n"
 "              </p><p>\n"
 "                Bạn phải định nghĩa một sản phẩm cho giao diện bán hàng tại\n"
@@ -124,8 +122,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_account_journal_form
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a payment method.\n"
 "              </p><p>\n"
 "                Payment methods are defined by accounting journals having the\n"
@@ -138,8 +135,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_pos_form
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new order.\n"
 "              </p><p>\n"
 "                Use this menu to browse previous orders. To record new\n"
@@ -151,8 +147,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.product_pos_category_action
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new category.\n"
 "              </p><p>\n"
 "                Categories are used to browse your products through the\n"
@@ -167,8 +162,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_session
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to start a new session.\n"
 "              </p><p>\n"
 "                A session is a period of time, usually one day, during which\n"
@@ -386,8 +380,7 @@ msgstr "Mã vạch"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
-msgid ""
-"Barcode Patterns allow to match barcodes to actions or to embed information such as price and quantity in the barcode.\n"
+msgid "Barcode Patterns allow to match barcodes to actions or to embed information such as price and quantity in the barcode.\n"
 "                                Barcode Patterns only work with EAN13 barcodes."
 msgstr ""
 
@@ -941,8 +934,7 @@ msgstr "EAN13"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
-msgid ""
-"Each type of barcode accepts a list of patterns seprated by commas. A scanned \n"
+msgid "Each type of barcode accepts a list of patterns seprated by commas. A scanned \n"
 "                                barcode will be attributed to a type if it matches one of its patterns. \n"
 "                                The patterns take the form of EAN13 barcodes. Numbers in the pattern must match\n"
 "                                the number in the scanned barcode. A 'x' or a '*' in a pattern will match\n"
@@ -1037,8 +1029,7 @@ msgstr "Ngày kết thúc"
 
 #. module: point_of_sale
 #: view:pos.ean_wizard:point_of_sale.pos_ean13_generator
-msgid ""
-"Enter a reference, it will be converted\n"
+msgid "Enter a reference, it will be converted\n"
 "                        automatically to a valid EAN number."
 msgstr ""
 
@@ -1814,8 +1805,7 @@ msgstr "Các thanh toán"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/widgets.js:1255
 #, python-format
-msgid ""
-"Pending orders will be lost.\n"
+msgid "Pending orders will be lost.\n"
 "Are you sure you want to leave this session?"
 msgstr ""
 
@@ -2732,8 +2722,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:690
 #, python-format
-msgid ""
-"The Point of Sale could not find any product, client, employee\n"
+msgid "The Point of Sale could not find any product, client, employee\n"
 "                    or action associated with the scanned barcode."
 msgstr ""
 
@@ -2741,8 +2730,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:93
 #, python-format
-msgid ""
-"The Point of Sale is not supported by Microsoft Internet Explorer. Please use\n"
+msgid "The Point of Sale is not supported by Microsoft Internet Explorer. Please use\n"
 "                        a modern browser like"
 msgstr "PoS không hỗ trợ chạy trên trình duyệt IE. Vui lòng sử dụng một trình duyệt khác như"
 
@@ -2859,8 +2847,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1298
 #, python-format
-msgid ""
-"There is no cash payment method available in this point of sale to handle the change.\n"
+msgid "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
 msgstr ""
@@ -3254,15 +3241,13 @@ msgstr ""
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1307
 #, python-format
-msgid ""
-"You have to select a pricelist in the sale form !\n"
+msgid "You have to select a pricelist in the sale form !\n"
 "Please set one before choosing a product."
 msgstr ""
 
 #. module: point_of_sale
 #: view:pos.session.opening:point_of_sale.pos_session_opening_form_view
-msgid ""
-"You may have to control your cash amount in your cash register, before\n"
+msgid "You may have to control your cash amount in your cash register, before\n"
 "                          being able to start selling through the touchscreen interface."
 msgstr ""
 
@@ -3429,3 +3414,4 @@ msgstr "transaction for the pos"
 #: field:pos.session.opening,pos_session_username:0
 msgid "unknown"
 msgstr "chưa rõ"
+

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 12:22+0000\n"
-"PO-Revision-Date: 2015-06-21 15:57+0700\n"
+"PO-Revision-Date: 2015-06-23 15:30+0700\n"
 "Last-Translator: Odoo Server 8.0 <tungnt1@live.com>\n"
 "Language-Team: tungnt <tungnt1@live.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: vi\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8\n"
 
 #. module: im_chat
 #. openerp-web
@@ -65,7 +65,7 @@ msgstr "Tạo trên"
 #. module: im_chat
 #: selection:im_chat.conversation_state,state:0
 msgid "Folded"
-msgstr "Folded"
+msgstr ""
 
 #. module: im_chat
 #: field:im_chat.conversation_state,id:0 field:im_chat.message,id:0
@@ -86,7 +86,7 @@ msgstr "Bình chọn cuối cùng"
 #. module: im_chat
 #: field:im_chat.presence,last_presence:0
 msgid "Last Presence"
-msgstr "Last Presence"
+msgstr "Sử dụng cuối cùng"
 
 #. module: im_chat
 #: field:im_chat.conversation_state,write_uid:0
@@ -135,7 +135,7 @@ msgstr "Mở"
 #. module: im_chat
 #: field:im_chat.session,session_res_users_rel:0
 msgid "Relation Session Users"
-msgstr "Relation Session Users"
+msgstr "Phiên làm việc của User liên quan"
 
 #. module: im_chat
 #. openerp-web
@@ -159,12 +159,12 @@ msgstr "Phiên làm việc"
 #. module: im_chat
 #: field:im_chat.message,to_id:0
 msgid "Session To"
-msgstr "Session To"
+msgstr "Phiên làm việc"
 
 #. module: im_chat
 #: field:im_chat.session,user_ids:0
 msgid "Session Users"
-msgstr "Session Users"
+msgstr "Phiên làm việc của User"
 
 #. module: im_chat
 #: field:im_chat.message,type:0

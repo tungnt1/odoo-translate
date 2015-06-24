@@ -1,24 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* hr_evaluation
+# 	* hr_evaluation
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 12:29+0000\n"
-"PO-Revision-Date: 2015-06-19 12:29+0000\n"
+"PO-Revision-Date: 2015-06-23 18:06+0700\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"Language: vi\n"
+"X-Generator: Poedit 1.8\n"
 
 #. module: hr_evaluation
 #: code:addons/hr_evaluation/hr_evaluation.py:84
 #, python-format
-msgid "\n"
+msgid ""
+"\n"
 "Date: %(date)s\n"
 "\n"
 "Dear %(employee_name)s,\n"
@@ -33,7 +36,8 @@ msgid "\n"
 "%(user_signature)s\n"
 "\n"
 "        "
-msgstr "\n"
+msgstr ""
+"\n"
 "Ngày: %(date)s\n"
 "\n"
 "Gửi %(employee_name)s,\n"
@@ -62,7 +66,7 @@ msgstr "(date)s: Ngày hiện tạo"
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "(employee_name)s: Partner name"
-msgstr "(employee_name)s: Partner name"
+msgstr "(employee_name)s: Tên đối tác"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -76,7 +80,8 @@ msgstr "(user_signature)s: Người dùng"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
-msgid "<h2>At the supervisor's appraisal date</h2>\n"
+msgid ""
+"<h2>At the supervisor's appraisal date</h2>\n"
 "<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
 "<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
 "<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
@@ -87,21 +92,12 @@ msgid "<h2>At the supervisor's appraisal date</h2>\n"
 "<li>Did not meet standards and expectations</li>\n"
 "<li>Significantly below standards and expectations</li>\n"
 "</ol>"
-msgstr "<h2>At the supervisor's appraisal date</h2>\n"
-"<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
-"<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
-"<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
-"</p><ol>\n"
-"<li>Significantly exceeds standards and expectations required of the position</li>\n"
-"<li>Exceeds standards and expectations</li>\n"
-"<li>Meet standards and expectations</li>\n"
-"<li>Did not meet standards and expectations</li>\n"
-"<li>Significantly below standards and expectations</li>\n"
-"</ol>"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid "<h2>Overall Purpose Of Employee Appraisal</h2>\n"
+msgid ""
+"<h2>Overall Purpose Of Employee Appraisal</h2>\n"
 "<ul><li>To initiate a clear and open communication of performance expectations\n"
 "</li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for\n"
 "development</li></ul>\n"
@@ -121,30 +117,12 @@ msgid "<h2>Overall Purpose Of Employee Appraisal</h2>\n"
 "hoc fields.\n"
 "</li><li>The employee may choose to offer comments or explanation regarding the completed review.\n"
 "</li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>"
-msgstr "<h2>Overall Purpose Of Employee Appraisal</h2>\n"
-"<ul><li>To initiate a clear and open communication of performance expectations\n"
-"</li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for\n"
-"development</li></ul>\n"
-"<h2>At the outset of the appraisal time period</h2>\n"
-"<ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the\n"
-"coming year, including major employee responsibilities and corresponding benchmarks against which results will be\n"
-"evaluated.\n"
-"</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>\n"
-"<h2>At the conclusion of the appraisal time period</h2>\n"
-"<ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting\n"
-"point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
-"Once the form had been filled, the employee send it to his supervisor.\n"
-"</li><li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n"
-"(internal and/or external customers, peers). In case of collaboration with Odoo SA Belgium, the supervisor must\n"
-"receive completed evaluation form from the employee's Belgian project manager.\n"
-"</li><li>The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\n"
-"hoc fields.\n"
-"</li><li>The employee may choose to offer comments or explanation regarding the completed review.\n"
-"</li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.open_view_hr_evaluation_tree
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new appraisal.\n"
 "              </p><p>\n"
 "                Each employee may be assigned an Appraisal Plan. Such a plan\n"
@@ -155,21 +133,12 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                evaluation by the manager.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to create a new appraisal.\n"
-"              </p><p>\n"
-"                Each employee may be assigned an Appraisal Plan. Such a plan\n"
-"                defines the frequency and the way you manage your periodic\n"
-"                personnel evaluation. You will be able to define steps and\n"
-"                attach interviews to each step. Odoo manages all kinds of\n"
-"                evaluations: bottom-up, top-down, self-evaluation and final\n"
-"                evaluation by the manager.\n"
-"              </p>\n"
-"            "
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new interview request related to a personal evaluation.\n"
 "              </p><p>\n"
 "                Interview requests are usually generated automatically by\n"
@@ -178,19 +147,12 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                colleagues periodically.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to create a new interview request related to a personal evaluation.\n"
-"              </p><p>\n"
-"                Interview requests are usually generated automatically by\n"
-"                Odoo according to an employee's appraisal plan. Each user\n"
-"                receives automatic emails and requests to evaluate their\n"
-"                colleagues periodically.\n"
-"              </p>\n"
-"            "
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_evaluation_plans_installer
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new appraisal plan.\n"
 "              </p><p>\n"
 "                You can define appraisal plans (ex: first interview after 6\n"
@@ -199,15 +161,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                interview requests to managers and/or subordinates.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to define a new appraisal plan.\n"
-"              </p><p>\n"
-"                You can define appraisal plans (ex: first interview after 6\n"
-"                months, then every year). Then, each employee can be linked to\n"
-"                an appraisal plan so that Odoo can automatically generate\n"
-"                interview requests to managers and/or subordinates.\n"
-"              </p>\n"
-"            "
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_2
@@ -217,30 +171,32 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #: model:survey.survey,thank_you_message:hr_evaluation.appraisal_form
 #: model:survey.survey,thank_you_message:hr_evaluation.opinion_form
 msgid "<p> </p>"
-msgstr "<p> </p>"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_5
 msgid "<p></p>"
-msgstr "<p></p>"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_4
-msgid "<p>Identify professional, performance, or project objectives you recommend for employee’s continued career development\n"
+msgid ""
+"<p>Identify professional, performance, or project objectives you recommend for employee’s continued career development\n"
 "over the coming year.</p>"
-msgstr "<p>Identify professional, performance, or project objectives you recommend for employee’s continued career development\n"
-"over the coming year.</p>"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_3
-msgid "<p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided\n"
+msgid ""
+"<p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided\n"
 "below:</p><ol>\n"
 "<li> Significantly exceeds standards and expectations required of the position\n"
 "</li><li> Exceeds standards and expectations\n"
 "</li><li> Meet standards and expectations\n"
 "</li><li> Did not meet standards and expectations\n"
 "</li><li> Significantly below standards and expectations</li></ol>"
-msgstr "<p>Người đánh giá phải đánh giá hiệu quả và thành tích công việc chính của nhân viên theo các số liệu được cung cấp\n"
+msgstr ""
+"<p>Người đánh giá phải đánh giá hiệu quả và thành tích công việc chính của nhân viên theo các số liệu được cung cấp\n"
 "sau:</p><ol>\n"
 "<li> Vượt tiêu chuẩn mong đợi được yêu cầu cho một vị trí\n"
 "</li><li> Vượt tiêu chuẩn mong đợi\n"
@@ -251,7 +207,7 @@ msgstr "<p>Người đánh giá phải đánh giá hiệu quả và thành tích
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_1
 msgid "Ability to cope with multidisciplinarity of team"
-msgstr "Ability to cope with multidisciplinarity of team"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_6
@@ -286,7 +242,7 @@ msgstr "Hành động cần thực hiện"
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_1
 msgid "Actions by Executive management show genuine interest in the well-being of employees"
-msgstr "Actions by Executive management show genuine interest in the well-being of employees"
+msgstr ""
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan,active:0
@@ -317,7 +273,7 @@ msgstr "Tất cả câu trả lời"
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_11
 msgid "Analytical and synthetic mind"
-msgstr "Analytical and synthetic mind"
+msgstr "Phân tích và Tổng hợp"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,send_anonymous_employee:0
@@ -357,13 +313,13 @@ msgstr "Họn chót đánh giá"
 #: field:hr.evaluation.interview,survey_id:0
 #: field:hr_evaluation.plan.phase,survey_id:0
 msgid "Appraisal Form"
-msgstr "Form Đánh giá"
+msgstr "Mẫu Đánh giá"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
 #: field:hr_evaluation.evaluation,survey_request_ids:0
 msgid "Appraisal Forms"
-msgstr "Form Đánh giá"
+msgstr "Mẫu Đánh giá"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_interview
@@ -392,8 +348,7 @@ msgstr "Giai đoạn đánh giá"
 #: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_form
 #: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
 #: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_tree
-#: field:hr_evaluation.plan,name:0
-#: field:hr_evaluation.plan.phase,plan_id:0
+#: field:hr_evaluation.plan,name:0 field:hr_evaluation.plan.phase,plan_id:0
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_plan
 msgid "Appraisal Plan"
 msgstr "Kế hoạch đánh giá"
@@ -449,7 +404,7 @@ msgstr "Đánh giá có trong một kế hoạch trong trạng thái Tiến trì
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
 msgid "Appraisal that are in waiting appreciation state"
-msgstr "Appraisal that are in waiting appreciation state"
+msgstr ""
 
 #. module: hr_evaluation
 #: view:hr.employee:hr_evaluation.hr_hr_employee_view_form
@@ -476,7 +431,7 @@ msgstr "Người đánh giá"
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 #: field:hr_evaluation.evaluation,rating:0
 msgid "Appreciation"
-msgstr "Appreciation"
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr_evaluation.plan.phase,action:0
@@ -553,7 +508,7 @@ msgstr "Tạo ngày"
 #: field:hr_evaluation.plan,create_uid:0
 #: field:hr_evaluation.plan.phase,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "Tạo bởi"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,create_date:0
@@ -561,12 +516,12 @@ msgstr "Created by"
 #: field:hr_evaluation.plan,create_date:0
 #: field:hr_evaluation.plan.phase,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Tạo trên"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 msgid "Creation Month"
-msgstr "Creation Month"
+msgstr "Tháng tạo"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_14
@@ -672,12 +627,12 @@ msgstr "Trì hoãn bắt đầu"
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_2
 msgid "Delegation: Ability to efficiently assign tasks to other people"
-msgstr "Delegation: Ability to efficiently assign tasks to other people"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_1
 msgid "Demonstrates genuine concern for me as a person"
-msgstr "Demonstrates genuine concern for me as a person"
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,rating:0
@@ -744,7 +699,7 @@ msgstr "Bình luận của nhân viên"
 #. module: hr_evaluation
 #: model:survey.survey,title:hr_evaluation.opinion_form
 msgid "Employee Opinion Form"
-msgstr "Form ý kiến của nhân viên"
+msgstr "Mẫu ý kiến của nhân viên"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_3
@@ -764,12 +719,12 @@ msgstr "Ngày kết thúc"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_1
 msgid "Engagement"
-msgstr "Engagement"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_2
 msgid "Enthusiasm & implication toward projects/assignments"
-msgstr "Enthusiasm & implication toward projects/assignments"
+msgstr "Sự nhiệt tình đối với Dự án/Nhiệm vụ"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.opinion_2
@@ -829,7 +784,7 @@ msgstr "Tổng quát"
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 #: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
@@ -840,68 +795,66 @@ msgstr "Nhóm theo..."
 #: help:hr.evaluation.interview,message_summary:0
 #: help:hr_evaluation.evaluation,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_1
 msgid "I am proud to tell others I work here"
-msgstr "I am proud to tell others I work here"
+msgstr "Tôi tự hào nói với người khác là tôi làm việc ở đây"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_5
 msgid "I am willing to put in a great deal of effort beyond what is expected to help my workgroup succeed"
-msgstr "I am willing to put in a great deal of effort beyond what is expected to help my workgroup succeed"
+msgstr "Tôi sẵn sàng nỗ lực để đáp ứng được kỳ vòng của mọi người."
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_4
 msgid "I believe the information that I get from the person I report to."
-msgstr "I believe the information that I get from the person I report to."
+msgstr "Tôi tin tưởng vào những thông tin nhận được từ những người tôi báo cáo."
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_2
 msgid "I consistently acquire new knowledge, skills or understanding through contact with my supervisor. He helps me growing my compete"
-msgstr "I consistently acquire new knowledge, skills or understanding through contact with my supervisor. He helps me growing my compete"
+msgstr "Tôi luôn tiếp thu kiến thức mới, kỹ năng hay sự hiểu biết qua làm việc với cấp trên. Họ đã giúp tôi hoàn thiện khá nhiều."
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_3_2
 msgid "I have enough work"
-msgstr "I have enough work"
+msgstr "Tôi có đủ việc để làm"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_2
 msgid "I have the same opportunity to succeed as others with similar experiences, performance and educational background"
-msgstr "I have the same opportunity to succeed as others with similar experiences, performance and educational background"
+msgstr "Tôi có cơ hội như"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_5_1
 msgid "I know the company's values and live them"
-msgstr "I know the company's values and live them"
+msgstr "Tôi biết giá trị của công ty và quan tâm tới cuộc sống của các đồng nghiệp"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_3_3
 msgid "I mostly work on value-added tasks for the company, the products or the services"
-msgstr "I mostly work on value-added tasks for the company, the products or the services"
+msgstr "Tôi chủ yếu làm việc trong các nhiệm vụ tạo ra giá trị gia tăng cho công ty công ty"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_4
 msgid "I understand the company strategy and how my workgroup supports it"
-msgstr "I understand the company strategy and how my workgroup supports it"
+msgstr "Tôi hiểu các chiến lược phát triển và cách nhóm của tôi thực hiện nó"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_3
 msgid "I would prefer to remain with this company even if a comparable job were available in another company"
-msgstr "I would prefer to remain with this company even if a comparable job were available in another company"
+msgstr "Tôi muốn làm việc tại công ty này kể cả khi có một lời mời làm một công việc tương tự ở công ty khác."
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_3_1
 msgid "I'm efficient at work and my achievements are successful"
-msgstr "I'm efficient at work and my achievements are successful"
+msgstr "Tôi làm việc hiệu quả và thành công với những gì tôi được giao."
 
 #. module: hr_evaluation
-#: field:hr.evaluation.interview,id:0
-#: field:hr.evaluation.report,id:0
-#: field:hr_evaluation.evaluation,id:0
-#: field:hr_evaluation.plan,id:0
+#: field:hr.evaluation.interview,id:0 field:hr.evaluation.report,id:0
+#: field:hr_evaluation.evaluation,id:0 field:hr_evaluation.plan,id:0
 #: field:hr_evaluation.plan.phase,id:0
 msgid "ID"
 msgstr "ID"
@@ -910,7 +863,7 @@ msgstr "ID"
 #: help:hr.evaluation.interview,message_unread:0
 #: help:hr_evaluation.evaluation,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr ""
 
 #. module: hr_evaluation
 #: help:hr_evaluation.evaluation,note_action:0
@@ -947,7 +900,7 @@ msgstr "Ghi chú nội bộ"
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Interview Appraisal"
-msgstr "Interview Appraisal"
+msgstr "Đánh giá phỏng vấn"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_evaluation_calendar
@@ -991,7 +944,7 @@ msgstr "Ngày thông điệp gần nhất"
 #: field:hr_evaluation.plan,write_uid:0
 #: field:hr_evaluation.plan.phase,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,write_date:0
@@ -999,7 +952,7 @@ msgstr "Last Updated by"
 #: field:hr_evaluation.plan,write_date:0
 #: field:hr_evaluation.plan.phase,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Cập nhật lần cuối trên"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_2
@@ -1014,17 +967,17 @@ msgstr "Lãnh đạo: Tạo ra một môi trường làm việc đầy thách th
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_4
 msgid "Leadership: sustain subordinates in their professional growth"
-msgstr "Leadership: sustain subordinates in their professional growth"
+msgstr "Lãnh đạo: duy trì sự phát triển và ổn định của cấp dưới"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Legend"
-msgstr "Legend"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_3
 msgid "Listens and takes into account all ideas and do his best to put in place the best of these"
-msgstr "Listens and takes into account all ideas and do his best to put in place the best of these"
+msgstr "Lắng nghe, tập trung và làm việc hết sức để đưa ra sản phẩm tốt nhất của các"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -1072,12 +1025,12 @@ msgstr "Thành tựu tốt nhất của tôi được thông báo cho cộng đ�
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_2
 msgid "My job provides me with a sense of personal accomplishment"
-msgstr "My job provides me with a sense of personal accomplishment"
+msgstr "Công việc phù hợp với kỹ năng và sở thích của tôi."
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_1
 msgid "My work contributes towards the continuous improvement of the company, our services or products"
-msgstr "My work contributes towards the continuous improvement of the company, our services or products"
+msgstr "Công việc của tôi góp phần hướng tới sự cải tiến liên tục của công ty"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_1
@@ -1149,7 +1102,7 @@ msgstr "Xếp hạng tổng thể"
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_3
 msgid "Overall, I believe the quality of products and/or services my workgroup delivers is improving"
-msgstr "Overall, I believe the quality of products and/or services my workgroup delivers is improving"
+msgstr "Nói chung, tôi tin rằng chất lượng sản phẩm / dịch vụ do nhóm chúng tôi thực hiện đang được cải thiện"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,overpass_delay:0
@@ -1174,7 +1127,7 @@ msgstr "Đánh giá định kỳ (theo tháng)"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_2
 msgid "Personal Performance Objectives"
-msgstr "Personal Performance Objectives"
+msgstr "Mục tiêu hiệu suất cá nhân"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,name:0
@@ -1209,12 +1162,12 @@ msgstr "In khảo sát"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_1
 msgid "Professional Development Objectives"
-msgstr "Professional Development Objectives"
+msgstr "Mục tiêu phát triển chuyên nghiệp"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_4
 msgid "Professional Development and Performance Plan"
-msgstr "Professional Development and Performance Plan"
+msgstr "Phát triển Chuyên môn và Kế hoạch thực hiện"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_3
@@ -1503,4 +1456,3 @@ msgstr "Bạn không thể thay đổi trạng thái bởi vì một vài form �
 #, python-format
 msgid "You cannot start evaluation without Appraisal."
 msgstr "You cannot start evaluation without Appraisal."
-

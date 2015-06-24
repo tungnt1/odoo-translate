@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 14:18+0000\n"
-"PO-Revision-Date: 2015-06-21 17:57+0700\n"
+"PO-Revision-Date: 2015-06-23 15:36+0700\n"
 "Last-Translator: Odoo Server 8.0 <tungnt1@live.com>\n"
 "Language-Team: tungnt <tungnt1@live.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: vi\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8\n"
 
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
@@ -66,7 +66,7 @@ msgstr "Còn lại"
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
 msgid "Sales End"
-msgstr ""
+msgstr "Kết thúc bán hàng"
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_sale_order

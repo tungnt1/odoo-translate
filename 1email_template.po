@@ -1,19 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* email_template
+# 	* email_template
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-19 14:00+0000\n"
-"PO-Revision-Date: 2015-06-19 14:00+0000\n"
+"PO-Revision-Date: 2015-06-23 14:43+0700\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"Language: vi\n"
+"X-Generator: Poedit 1.8\n"
 
 #. module: email_template
 #: code:addons/email_template/email_template.py:365
@@ -38,8 +40,7 @@ msgid "Advanced Settings"
 msgstr "Thiết lập nâng cao"
 
 #. module: email_template
-#: field:email.template,model_id:0
-#: field:email_template.preview,model_id:0
+#: field:email.template,model_id:0 field:email_template.preview,model_id:0
 msgid "Applies to"
 msgstr "Áp dụng cho"
 
@@ -66,21 +67,18 @@ msgid "Available for mass mailing"
 msgstr "Có khả năng gửi mail hàng loạt"
 
 #. module: email_template
-#: field:email.template,body_html:0
-#: field:email_template.preview,body_html:0
+#: field:email.template,body_html:0 field:email_template.preview,body_html:0
 #: field:ir.actions.server,body_html:0
 msgid "Body"
 msgstr "Nội dung"
 
 #. module: email_template
-#: help:email.template,email_cc:0
-#: help:email_template.preview,email_cc:0
+#: help:email.template,email_cc:0 help:email_template.preview,email_cc:0
 msgid "Carbon copy recipients (placeholders may be used here)"
-msgstr "Carbon copy recipients (placeholders may be used here)"
+msgstr ""
 
 #. module: email_template
-#: field:email.template,email_cc:0
-#: field:email_template.preview,email_cc:0
+#: field:email.template,email_cc:0 field:email_template.preview,email_cc:0
 msgid "Cc"
 msgstr "Cc"
 
@@ -97,7 +95,7 @@ msgstr "Chọn một ví dụ"
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Comma-separated carbon copy recipients addresses"
-msgstr "Comma-separated carbon copy recipients addresses"
+msgstr ""
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -105,8 +103,7 @@ msgid "Comma-separated ids of recipient partners"
 msgstr "Mã đối tác nhận được ngăn cách bởi dấu phẩy"
 
 #. module: email_template
-#: help:email.template,partner_to:0
-#: help:email_template.preview,partner_to:0
+#: help:email.template,partner_to:0 help:email_template.preview,partner_to:0
 msgid "Comma-separated ids of recipient partners (placeholders may be used here)"
 msgstr "Comma-separated ids of recipient partners (placeholders may be used here)"
 
@@ -116,10 +113,9 @@ msgid "Comma-separated recipient addresses"
 msgstr "Địa chỉ người nhận được ngăn cách bởi dấu phẩy"
 
 #. module: email_template
-#: help:email.template,email_to:0
-#: help:email_template.preview,email_to:0
+#: help:email.template,email_to:0 help:email_template.preview,email_to:0
 msgid "Comma-separated recipient addresses (placeholders may be used here)"
-msgstr "Comma-separated recipient addresses (placeholders may be used here)"
+msgstr ""
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -132,20 +128,18 @@ msgid "Context Action"
 msgstr "Hành động ngữ cảnh"
 
 #. module: email_template
-#: field:email.template,create_uid:0
-#: field:email_template.preview,create_uid:0
+#: field:email.template,create_uid:0 field:email_template.preview,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "Tạo bởi"
 
 #. module: email_template
 #: field:email.template,create_date:0
 #: field:email_template.preview,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Tạo trên"
 
 #. module: email_template
-#: field:email.template,null_value:0
-#: field:email_template.preview,null_value:0
+#: field:email.template,null_value:0 field:email_template.preview,null_value:0
 msgid "Default Value"
 msgstr "Giá trị mặc định"
 
@@ -158,10 +152,12 @@ msgstr "Người nhận mặc định"
 #. module: email_template
 #: help:email.template,use_default_to:0
 #: help:email_template.preview,use_default_to:0
-msgid "Default recipients of the record:\n"
+msgid ""
+"Default recipients of the record:\n"
 "- partner (using id on a partner or the partner_id field) OR\n"
 "- email (using email_from or email field)"
-msgstr "Người nhận mặc định của một bản ghi:\n"
+msgstr ""
+"Người nhận mặc định của một bản ghi:\n"
 "- đối tác (sử dụng trường id hoặc partner_id) Hoặc\n"
 "- email (sử dụng trường email_from hoặc email)"
 
@@ -169,17 +165,17 @@ msgstr "Người nhận mặc định của một bản ghi:\n"
 #: code:addons/email_template/email_template.py:355
 #, python-format
 msgid "Deletion of the action record failed."
-msgstr "Deletion of the action record failed."
+msgstr ""
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Display an option on related documents to open a composition wizard with this template"
-msgstr "Display an option on related documents to open a composition wizard with this template"
+msgstr "Hiển thị lựa chọn trên tài liệu liên quan để mở trình hỗ trợ soạn email với Mẫu email này."
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Dynamic Placeholder Generator"
-msgstr "Dynamic Placeholder Generator"
+msgstr ""
 
 #. module: email_template
 #: view:ir.actions.server:email_template.view_server_action_form_template
@@ -223,17 +219,15 @@ msgid "Field"
 msgstr "Field"
 
 #. module: email_template
-#: help:email.template,copyvalue:0
-#: help:email_template.preview,copyvalue:0
+#: help:email.template,copyvalue:0 help:email_template.preview,copyvalue:0
 msgid "Final placeholder expression, to be copy-pasted in the desired template field."
-msgstr "Final placeholder expression, to be copy-pasted in the desired template field."
+msgstr ""
 
 #. module: email_template
-#: field:email.template,email_from:0
-#: field:email_template.preview,email_from:0
+#: field:email.template,email_from:0 field:email_template.preview,email_from:0
 #: field:ir.actions.server,email_from:0
 msgid "From"
-msgstr "From"
+msgstr "Từ"
 
 #. module: email_template
 #: view:email.template:email_template.view_email_template_search
@@ -241,8 +235,7 @@ msgid "Group by..."
 msgstr "Nhóm theo..."
 
 #. module: email_template
-#: field:email.template,id:0
-#: field:email_template.preview,id:0
+#: field:email.template,id:0 field:email_template.preview,id:0
 msgid "ID"
 msgstr "ID"
 
@@ -250,30 +243,27 @@ msgstr "ID"
 #: help:email.template,user_signature:0
 #: help:email_template.preview,user_signature:0
 msgid "If checked, the user's signature will be appended to the text version of the message"
-msgstr "If checked, the user's signature will be appended to the text version of the message"
+msgstr "Nếu tick, Chữ ký của User sẽ được nối thêm vào nội dung tin nhắn"
 
 #. module: email_template
 #: help:res.partner,opt_out:0
 msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
-msgstr "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
+msgstr ""
 
 #. module: email_template
-#: field:email.template,lang:0
-#: field:email_template.preview,lang:0
+#: field:email.template,lang:0 field:email_template.preview,lang:0
 msgid "Language"
 msgstr "Ngôn ngữ"
 
 #. module: email_template
-#: field:email.template,write_uid:0
-#: field:email_template.preview,write_uid:0
+#: field:email.template,write_uid:0 field:email_template.preview,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: email_template
-#: field:email.template,write_date:0
-#: field:email_template.preview,write_date:0
+#: field:email.template,write_date:0 field:email_template.preview,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Cập nhật lần cuối trên"
 
 #. module: email_template
 #: view:email.template:email_template.view_email_template_search
@@ -281,17 +271,17 @@ msgid "Model"
 msgstr "Đối tượng"
 
 #. module: email_template
-#: field:email.template,name:0
-#: field:email_template.preview,name:0
+#: field:email.template,name:0 field:email_template.preview,name:0
 msgid "Name"
 msgstr "Tên"
 
 #. module: email_template
-#: help:email.template,report_name:0
-#: help:email_template.preview,report_name:0
-msgid "Name to use for the generated report file (may contain placeholders)\n"
+#: help:email.template,report_name:0 help:email_template.preview,report_name:0
+msgid ""
+"Name to use for the generated report file (may contain placeholders)\n"
 "The extension can be omitted and will then come from the report type."
-msgstr "Tên được sử dụng cho việc tạo file báo cáo\n"
+msgstr ""
+"Tên được sử dụng cho việc tạo file báo cáo\n"
 "Phần mở rộng có thể được bỏ qua và lấy từ loại báo cáo."
 
 #. module: email_template
@@ -303,31 +293,29 @@ msgstr "Opt-Out"
 #: help:email.template,mail_server_id:0
 #: help:email_template.preview,mail_server_id:0
 msgid "Optional preferred server for outgoing mails. If not set, the highest priority one will be used."
-msgstr "Optional preferred server for outgoing mails. If not set, the highest priority one will be used."
+msgstr ""
 
 #. module: email_template
 #: field:email.template,report_template:0
 #: field:email_template.preview,report_template:0
 msgid "Optional report to print and attach"
-msgstr "Optional report to print and attach"
+msgstr ""
 
 #. module: email_template
-#: help:email.template,lang:0
-#: help:email_template.preview,lang:0
+#: help:email.template,lang:0 help:email_template.preview,lang:0
 msgid "Optional translation language (ISO code) to select when sending out an email. If not set, the english version will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. ${object.partner_id.lang}."
-msgstr "Optional translation language (ISO code) to select when sending out an email. If not set, the english version will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. ${object.partner_id.lang}."
+msgstr ""
 
 #. module: email_template
-#: help:email.template,null_value:0
-#: help:email_template.preview,null_value:0
+#: help:email.template,null_value:0 help:email_template.preview,null_value:0
 msgid "Optional value to use if the target field is empty"
-msgstr "Optional value to use if the target field is empty"
+msgstr ""
 
 #. module: email_template
 #: field:email.template,mail_server_id:0
 #: field:email_template.preview,mail_server_id:0
 msgid "Outgoing Mail Server"
-msgstr "Outgoing Mail Server"
+msgstr "Máy chủ gửi mail"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -342,35 +330,32 @@ msgstr "Đối tác"
 #. module: email_template
 #: view:res.partner:email_template.res_partner_opt_out_search
 msgid "Partners that did not ask not to be included in mass mailing campaigns"
-msgstr "Partners that did not ask not to be included in mass mailing campaigns"
+msgstr ""
 
 #. module: email_template
-#: help:email.template,auto_delete:0
-#: help:email_template.preview,auto_delete:0
+#: help:email.template,auto_delete:0 help:email_template.preview,auto_delete:0
 msgid "Permanently delete this email after sending it, to save space"
 msgstr "Vĩnh viễn xóa email này sau khi gửi nó, để tiết kiệm khoảng trống"
 
 #. module: email_template
-#: field:email.template,copyvalue:0
-#: field:email_template.preview,copyvalue:0
+#: field:email.template,copyvalue:0 field:email_template.preview,copyvalue:0
 msgid "Placeholder Expression"
-msgstr "Placeholder Expression"
+msgstr ""
 
 #. module: email_template
 #: view:ir.actions.server:email_template.view_server_action_form_template
 msgid "Please set the Base Model before setting the action details."
-msgstr "Please set the Base Model before setting the action details."
+msgstr ""
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Preferred reply address"
-msgstr "Preferred reply address"
+msgstr "Địa chỉ trả lời ưu tiên"
 
 #. module: email_template
-#: help:email.template,reply_to:0
-#: help:email_template.preview,reply_to:0
+#: help:email.template,reply_to:0 help:email_template.preview,reply_to:0
 msgid "Preferred response address (placeholders may be used here)"
-msgstr "Preferred response address (placeholders may be used here)"
+msgstr ""
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -380,7 +365,7 @@ msgstr "Xem trước"
 #. module: email_template
 #: view:email_template.preview:email_template.email_template_preview_form
 msgid "Preview of"
-msgstr "Preview of"
+msgstr "Xem trước của"
 
 #. module: email_template
 #: field:email_template.preview,partner_ids:0
@@ -388,8 +373,7 @@ msgid "Recipients"
 msgstr "Người nhận"
 
 #. module: email_template
-#: field:email.template,model:0
-#: field:email_template.preview,model:0
+#: field:email.template,model:0 field:email_template.preview,model:0
 msgid "Related Document Model"
 msgstr "Đối tượng tài liệu liên quan"
 
@@ -401,35 +385,33 @@ msgstr "Xóa bỏ"
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Remove the contextual action to use this template on related documents"
-msgstr "Remove the contextual action to use this template on related documents"
+msgstr "Hủy bỏ hành động theo bối cảnh sử dụng mẫu này trên các tài liệu liên quan."
 
 #. module: email_template
-#: field:email.template,reply_to:0
-#: field:email_template.preview,reply_to:0
+#: field:email.template,reply_to:0 field:email_template.preview,reply_to:0
 msgid "Reply-To"
-msgstr "Reply-To"
+msgstr "Trả lời cho"
 
 #. module: email_template
 #: field:email.template,report_name:0
 #: field:email_template.preview,report_name:0
 msgid "Report Filename"
-msgstr "Report Filename"
+msgstr "Tên file báo cáo"
 
 #. module: email_template
-#: help:email.template,body_html:0
-#: help:email_template.preview,body_html:0
+#: help:email.template,body_html:0 help:email_template.preview,body_html:0
 msgid "Rich-text/HTML version of the message (placeholders may be used here)"
-msgstr "Rich-text/HTML version of the message (placeholders may be used here)"
+msgstr "Phiên bản Rich-text/HTML của tin nhắn"
 
 #. module: email_template
 #: view:email.template:email_template.view_email_template_search
 msgid "SMTP Server"
-msgstr "SMTP Server"
+msgstr "Máy chủ gửi thư"
 
 #. module: email_template
 #: field:email_template.preview,res_id:0
 msgid "Sample Document"
-msgstr "Sample Document"
+msgstr "Tài liệu mẫu"
 
 #. module: email_template
 #: view:mail.compose.message:email_template.email_compose_message_wizard_inherit_form
@@ -444,78 +426,74 @@ msgstr "Lưu thành một bản mẫu mới"
 #. module: email_template
 #: help:email.template,model_object_field:0
 #: help:email_template.preview,model_object_field:0
-msgid "Select target field from the related document model.\n"
+msgid ""
+"Select target field from the related document model.\n"
 "If it is a relationship field you will be able to select a target field at the destination of the relationship."
-msgstr "Select target field from the related document model.\n"
-"If it is a relationship field you will be able to select a target field at the destination of the relationship."
+msgstr ""
 
 #. module: email_template
 #: code:addons/email_template/email_template.py:318
 #, python-format
 msgid "Send Mail (%s)"
-msgstr "Send Mail (%s)"
+msgstr "Gửi mail (%s)"
 
 #. module: email_template
-#: help:email.template,email_from:0
-#: help:email_template.preview,email_from:0
+#: help:email.template,email_from:0 help:email_template.preview,email_from:0
 msgid "Sender address (placeholders may be used here). If not set, the default value will be the author's email alias if configured, or email address."
-msgstr "Sender address (placeholders may be used here). If not set, the default value will be the author's email alias if configured, or email address."
+msgstr ""
 
 #. module: email_template
 #: code:addons/email_template/email_template.py:551
 #, python-format
 msgid "Sender email is missing or empty after template rendering. Specify one to deliver your message"
-msgstr "Sender email is missing or empty after template rendering. Specify one to deliver your message"
+msgstr ""
 
 #. module: email_template
 #: field:email.template,ref_ir_value:0
 #: field:email_template.preview,ref_ir_value:0
 msgid "Sidebar Button"
-msgstr "Sidebar Button"
+msgstr ""
 
 #. module: email_template
 #: field:email.template,ref_ir_act_window:0
 #: field:email_template.preview,ref_ir_act_window:0
 msgid "Sidebar action"
-msgstr "Sidebar action"
+msgstr ""
 
 #. module: email_template
 #: help:email.template,ref_ir_act_window:0
 #: help:email_template.preview,ref_ir_act_window:0
 msgid "Sidebar action to make this template available on records of the related document model"
-msgstr "Sidebar action to make this template available on records of the related document model"
+msgstr ""
 
 #. module: email_template
 #: help:email.template,ref_ir_value:0
 #: help:email_template.preview,ref_ir_value:0
 msgid "Sidebar button to open the sidebar action"
-msgstr "Sidebar button to open the sidebar action"
+msgstr ""
 
 #. module: email_template
 #: field:email.template,sub_model_object_field:0
 #: field:email_template.preview,sub_model_object_field:0
 msgid "Sub-field"
-msgstr "Sub-field"
+msgstr ""
 
 #. module: email_template
-#: field:email.template,sub_object:0
-#: field:email_template.preview,sub_object:0
+#: field:email.template,sub_object:0 field:email_template.preview,sub_object:0
 msgid "Sub-model"
-msgstr "Sub-model"
+msgstr ""
 
 #. module: email_template
-#: field:email.template,subject:0
-#: field:email_template.preview,subject:0
+#: field:email.template,subject:0 field:email_template.preview,subject:0
 #: field:ir.actions.server,subject:0
 msgid "Subject"
 msgstr "Tiêu đề"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
-#: help:email.template,subject:0
-#: help:email_template.preview,subject:0
+#: help:email.template,subject:0 help:email_template.preview,subject:0
 msgid "Subject (placeholders may be used here)"
-msgstr "Subject (placeholders may be used here)"
+msgstr "Chủ đề"
 
 #. module: email_template
 #: view:res.partner:email_template.res_partner_opt_out_search
@@ -525,7 +503,7 @@ msgstr "Nhà cung cấp"
 #. module: email_template
 #: model:ir.actions.act_window,name:email_template.wizard_email_template_preview
 msgid "Template Preview"
-msgstr "Template Preview"
+msgstr "Xem trước mẫu"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -537,31 +515,30 @@ msgid "Templates"
 msgstr "Các mẫu"
 
 #. module: email_template
-#: help:email.template,model_id:0
-#: help:email_template.preview,model_id:0
+#: help:email.template,model_id:0 help:email_template.preview,model_id:0
 msgid "The kind of document with with this template can be used"
-msgstr "The kind of document with with this template can be used"
+msgstr "Các loại tài liệu có thể sử dụng với mẫu này"
 
 #. module: email_template
 #: view:ir.actions.server:email_template.view_server_action_form_template
-msgid "The values displayed hereunder are informative. When sending the email, the values\n"
+msgid ""
+"The values displayed hereunder are informative. When sending the email, the values\n"
 "                                will be taken from the email template."
-msgstr "The values displayed hereunder are informative. When sending the email, the values\n"
-"                                will be taken from the email template."
+msgstr ""
+"Các giá trị được hiển thị dưới đây là thông tin. Khi gửi email,\n"
+"                                các giá trị sẽ được lấy từ mẫu email."
 
 #. module: email_template
-#: field:email.template,email_to:0
-#: field:email_template.preview,email_to:0
+#: field:email.template,email_to:0 field:email_template.preview,email_to:0
 #: field:ir.actions.server,email_to:0
 msgid "To (Emails)"
-msgstr "To (Emails)"
+msgstr "Tới (Email)"
 
 #. module: email_template
-#: field:email.template,partner_to:0
-#: field:email_template.preview,partner_to:0
+#: field:email.template,partner_to:0 field:email_template.preview,partner_to:0
 #: field:ir.actions.server,partner_to:0
 msgid "To (Partners)"
-msgstr "To (Partners)"
+msgstr "Tới (Đối tác)"
 
 #. module: email_template
 #: view:mail.compose.message:email_template.email_compose_message_wizard_inherit_form
@@ -585,13 +562,12 @@ msgstr "Cảnh báo!"
 #: help:email.template,sub_model_object_field:0
 #: help:email_template.preview,sub_model_object_field:0
 msgid "When a relationship field is selected as first field, this field lets you select the target field within the destination document model (sub-model)."
-msgstr "When a relationship field is selected as first field, this field lets you select the target field within the destination document model (sub-model)."
+msgstr ""
 
 #. module: email_template
-#: help:email.template,sub_object:0
-#: help:email_template.preview,sub_object:0
+#: help:email.template,sub_object:0 help:email_template.preview,sub_object:0
 msgid "When a relationship field is selected as first field, this field shows the document model the relationship goes to."
-msgstr "When a relationship field is selected as first field, this field shows the document model the relationship goes to."
+msgstr ""
 
 #. module: email_template
 #: help:email.template,attachment_ids:0
@@ -602,10 +578,9 @@ msgstr "Bạn có thể đính kèm file vào mẫu này, để thêm vào tất
 #. module: email_template
 #: view:ir.actions.server:email_template.view_server_action_form_template
 msgid "Your template does not defined any email_from. Please update your template."
-msgstr "Your template does not defined any email_from. Please update your template."
+msgstr ""
 
 #. module: email_template
 #: view:email_template.preview:email_template.email_template_preview_form
 msgid "record:"
 msgstr "bản ghi:"
-
