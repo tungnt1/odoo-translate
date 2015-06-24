@@ -185,24 +185,24 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "= Theoretical Closing Balance"
-msgstr ""
+msgstr "Số dư cuối phiên làm việc trên lý thuyết"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/screens.js:739
 #, python-format
 msgid "A Customer Name Is Required"
-msgstr ""
+msgstr "Bắt buộc phải có tên khách hàng"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
 msgid "A custom receipt footer message"
-msgstr "Tùy chỉnh chân trang biên lai"
+msgstr "Tùy chỉnh lề dưới của biên lai"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
 msgid "A custom receipt header message"
-msgstr "Tùy chỉnh đầu trang biên lai"
+msgstr "Tùy chỉnh lề trên của biên lai"
 
 #. module: point_of_sale
 #: help:pos.session,login_number:0
@@ -222,12 +222,12 @@ msgstr ""
 #. module: point_of_sale
 #: help:pos.config,receipt_footer:0
 msgid "A short text that will be inserted as a footer in the printed receipt"
-msgstr ""
+msgstr "Một đoạn ký tự sẽ được thêm vào lề dười của trang in biên lai"
 
 #. module: point_of_sale
 #: help:pos.config,receipt_header:0
 msgid "A short text that will be inserted as a header in the printed receipt"
-msgstr ""
+msgstr "Một đoạn ký tự sẽ được thêm vào lề trên của trang in biên lai"
 
 #. module: point_of_sale
 #. openerp-web
@@ -249,7 +249,7 @@ msgstr "Thông tin tài chính"
 #. module: point_of_sale
 #: help:pos.config,journal_id:0
 msgid "Accounting journal used to post sales entries."
-msgstr ""
+msgstr "Sổ nhật ký sử cho các bút toán liên quan đến PoS"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_search
@@ -286,7 +286,7 @@ msgstr "Tất cả phiên làm việc"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_all_sales_lines
 msgid "All sales lines"
-msgstr ""
+msgstr "Tất cả nội dung bán hàng"
 
 #. module: point_of_sale
 #: field:pos.make.payment,amount:0 field:report.transaction.pos,amount:0
@@ -306,7 +306,7 @@ msgstr ""
 #: view:pos.order:point_of_sale.view_pos_order_tree
 #: view:report.transaction.pos:point_of_sale.view_trans_pos_user_tree
 msgid "Amount total"
-msgstr ""
+msgstr "Tổng thanh toán"
 
 #. module: point_of_sale
 #. openerp-web
@@ -364,17 +364,17 @@ msgstr "Quay lại"
 #: model:ir.model,name:point_of_sale.model_account_bank_statement
 #: field:pos.session,statement_ids:0
 msgid "Bank Statement"
-msgstr "Sổ phụ ngân hàng"
+msgstr "Sao kê tài khoản"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "Nội dung sao kê ngân hàng"
+msgstr "Nội dung sao kê tài khoản"
 
 #. module: point_of_sale
 #: help:res.users,ean13:0
 msgid "BarCode"
-msgstr "Mã vạch"
+msgstr "Barcode"
 
 #. module: point_of_sale
 #. openerp-web
@@ -382,7 +382,7 @@ msgstr "Mã vạch"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:391
 #, python-format
 msgid "Barcode"
-msgstr "Mã vạch"
+msgstr "Barcode"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
@@ -396,7 +396,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:836
 #, python-format
 msgid "Barcode Scanner"
-msgstr "Máy quét mã vạch"
+msgstr "Máy quét Barcode"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
@@ -479,7 +479,7 @@ msgstr "Két tiền mặt"
 #: view:account.bank.statement:point_of_sale.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale.view_pos_open_cash_statement_filter
 msgid "Cash Statement"
-msgstr ""
+msgstr "Bảng kê tiền mặt"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
@@ -519,7 +519,7 @@ msgstr ""
 #. module: point_of_sale
 #: help:product.template,available_in_pos:0
 msgid "Check if you want this product to appear in the Point of Sale"
-msgstr ""
+msgstr "Tick nếu bạn muốn sản phẩm xuất hiện trong PoS"
 
 #. module: point_of_sale
 #: help:product.template,income_pdt:0
@@ -551,7 +551,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/screens.js:1324
 #, python-format
 msgid "Check your internet connection and try again."
-msgstr ""
+msgstr "Kiểm tra kết nối Internet và thử lại"
 
 #. module: point_of_sale
 #: field:pos.category,child_id:0
@@ -877,27 +877,27 @@ msgstr "Giảm giá"
 #. module: point_of_sale
 #: view:website:point_of_sale.report_detailsofsales
 msgid "Disc(%)"
-msgstr "Chiết khấu (%)"
+msgstr "Giảm giá (%)"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,disc:0
 msgid "Disc."
-msgstr "Chiết khấu"
+msgstr "Giảm giá"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_saleslines
 msgid "Disc. (%)"
-msgstr "Chiết khấu (%)"
+msgstr "Giảm giá (%)"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_payment
 msgid "Disc.(%)"
-msgstr "Chiết khấu (%)"
+msgstr "Giảm giá (%)"
 
 #. module: point_of_sale
 #: field:pos.discount,discount:0 field:pos.order.line,discount:0
 msgid "Discount (%)"
-msgstr "Chiết khấu (%)"
+msgstr "Giảm giá (%)"
 
 #. module: point_of_sale
 #: field:pos.config,barcode_discount:0
@@ -927,7 +927,7 @@ msgstr "Giảm giá"
 #. module: point_of_sale
 #: view:pos.open.statement:point_of_sale.view_pos_open_statement
 msgid "Do you want to open cash registers?"
-msgstr ""
+msgstr "Bạn có muốn mở két tiền mặt không?"
 
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_order_filter
@@ -979,7 +979,7 @@ msgstr "Cân điện tử"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:376
 #, python-format
 msgid "Email"
-msgstr "Thư điện tử"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -2736,6 +2736,8 @@ msgid ""
 "The Point of Sale could not find any product, client, employee\n"
 "                    or action associated with the scanned barcode."
 msgstr ""
+"PoS không thể tìm thấy sản phẩm, máy khách, nhân viên\n"
+"                    hoặc hành động liên quan đến máy quét mã Barcode."
 
 #. module: point_of_sale
 #. openerp-web
@@ -2749,22 +2751,22 @@ msgstr "PoS không hỗ trợ chạy trên trình duyệt IE. Vui lòng sử d�
 #. module: point_of_sale
 #: constraint:pos.config:0
 msgid "The company of a payment method is different than the one of point of sale"
-msgstr ""
+msgstr "Phương thức thanh toán của Công ty khác với một trong các PoS"
 
 #. module: point_of_sale
 #: constraint:pos.config:0
 msgid "The company of the sale journal is different than the one of point of sale"
-msgstr ""
+msgstr "Nhật ký bán hàng của Công ty khác với một trong những PoS"
 
 #. module: point_of_sale
 #: constraint:pos.config:0
 msgid "The company of the stock location is different than the one of point of sale"
-msgstr ""
+msgstr "Kho của Công ty khác với một trong những PoS"
 
 #. module: point_of_sale
 #: help:pos.config,proxy_ip:0
 msgid "The hostname or ip address of the hardware proxy, Will be autodetected if left empty"
-msgstr ""
+msgstr "Hostname hoặc địa chỉ IP của phần cứng proxy, nó sẽ tự động tìm kiếm nếu bạn để trống"
 
 #. module: point_of_sale
 #: sql_constraint:pos.session:0
